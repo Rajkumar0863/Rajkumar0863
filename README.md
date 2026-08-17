@@ -8,12 +8,7 @@
 
 *Using data and technology to understand and solve business problems.*
 
-<br>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://linkedin.com/in/rajkumar-vijayan-0135a8338/)
-[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:vijayanrajkumar478@gmail.com)
-
-📍 **Limerick, Ireland**
+📍 Limerick, Ireland · [LinkedIn](https://linkedin.com/in/rajkumar-vijayan-0135a8338/) · [vijayanrajkumar478@gmail.com](mailto:vijayanrajkumar478@gmail.com)
 
 </div>
 
@@ -45,17 +40,14 @@ I'm particularly interested in **Technology Consulting, Business Analysis, Digit
 
 ## `> what-i-work-with`
 
-### 💼 Business & Consulting
-
+**💼 Business & Consulting**
 `Business Analysis` · `Requirements Gathering` · `Stakeholder Analysis` · `Process Analysis` · `Root-Cause Analysis` · `Problem Structuring`
 
-### 📊 Data & Business Intelligence
+**📊 Data & Business Intelligence**
+`Power BI` · `Tableau` · `SQL` · `Python` · `Pandas` · `Excel` · `Data Visualisation` · `KPI Analysis`
 
-`Power BI` · `SQL` · `Python` · `Pandas` · `Excel` · `Data Visualisation` · `KPI Analysis`
-
-### 💻 Technology
-
-`Java` · `C++` · `C#` · `JavaScript` · `Git` · `Docker` · `Google Cloud`
+**💻 Technology**
+`Java` · `C#` · `C++` · `JavaScript` · `Git` · `Docker` · `Google Cloud`
 
 ---
 
@@ -64,6 +56,8 @@ I'm particularly interested in **Technology Consulting, Business Analysis, Digit
 ## 01 — 📈 CRM Sales Pipeline Analysis
 
 A commercial analytics project examining **8,800 sales opportunities** to understand pipeline performance, customer value and recoverable revenue opportunities.
+
+**🔗 [View the live interactive dashboard →](https://public.tableau.com/app/profile/rajkumar.vijayan2695/viz/CRMSalesPipelineAnalysis/CRMSalesDashboard)**
 
 ### Business Problem
 
@@ -115,46 +109,65 @@ Converted transactional data into a customer-growth story focused on **retention
 
 ---
 
-# `> additional-engineering-projects`
+## 03 — ☁️ Client Intelligence Platform
 
-## ⚙️ TradeMatch Exchange
+A **deployed** analytics application that turns an uploaded dataset into KPI dashboards, trend analysis, risk alerts and business recommendations — built for business users rather than analysts.
 
-### Java-Based Electronic Trading Matching Engine
+### Business Problem
 
-A Java project exploring the core mechanics of electronic trading systems through an **order book, matching engine and trade execution workflow**.
+Business teams hold data they cannot interrogate without an analyst in the loop. Can a self-service tool close that gap?
 
 ### What I Built
 
-* Order representation and management
-* Buy/sell order book processing
-* Order matching logic
-* Trade execution workflow
-* Object-oriented component structure
+* CSV/XLSX upload with automated data profiling and a data-quality score
+* Executive summary, KPI cards, risk alerts and recommended charts generated from the uploaded data
+* Interactive filters and CSV export of filtered insights
+* Containerised with Docker, CI/CD through GitHub Actions, deployed on Google Cloud Run
 
-### Technology
+### Methods & Tools
 
-`Java` · `Object-Oriented Programming` · `Data Structures` · `System Design`
+`Python` · `Streamlit` · `Pandas` · `Plotly` · `Docker` · `GitHub Actions` · `Google Cloud Run`
+
+➡️ **[View Project](https://github.com/Rajkumar0863/ai-analyst-copilot-dashboard)**
+
+---
+
+# `> additional-engineering-projects`
+
+## ⚙️ TradeMatch Exchange — Java Electronic Trading Matching Engine
+
+A Java project exploring the core mechanics of electronic trading systems through an **order book, matching engine and trade execution workflow**.
+
+**What I built:** order representation and management · buy/sell order book processing · order matching logic · trade execution workflow · object-oriented component structure
+
+`Java` · `Object-Oriented Programming` · `Data Structures` · `Priority Queues` · `System Design`
 
 ➡️ **[View Project](https://github.com/Rajkumar0863/TradeMatchExchange)**
 
 ---
 
+## 🧩 Task Manager — C# / .NET 8
+
+A console application built to practise clean architecture: repository pattern, constructor injection, JSON persistence and **14 xUnit tests**.
+
+`C#` · `.NET 8` · `Repository Pattern` · `Unit Testing` · `xUnit`
+
+➡️ **[View Project](https://github.com/Rajkumar0863/csharp-task-manager)**
+
+---
+
 # `> currently-building`
 
-## 🏢 ConsultLab
-
-### Business & Technology Consulting Simulation
+## 🏢 ConsultLab — Business Analysis Engagement
 
 > 🚧 **Work in progress**
 
-I'm developing **ConsultLab** as a consulting-focused project exploring how a technology consultant can move from an ambiguous business problem toward a structured, technology-enabled recommendation.
+A business analysis engagement applying **process mining** to a real loan application event log: reconstructing the as-is process from system data, diagnosing rework and delay, and specifying a technology-enabled recommendation with a quantified business case.
 
 ### Planned Consulting Journey
 
 ```text
 Client Problem
-     ↓
-Business Analysis
      ↓
 Stakeholder & Process Analysis
      ↓
@@ -169,9 +182,9 @@ Recommendation
 Business Impact
 ```
 
-### Planned Focus
+**Planned deliverables:** stakeholder analysis and RACI · as-is BPMN · process mining analysis · business requirements document · options assessment · to-be process · recommendation deck
 
-`Business Analysis` · `Power BI` · `Data Analysis` · `Digital Transformation` · `Technology Consulting`
+`Business Analysis` · `Process Mining` · `BPMN` · `Requirements Engineering` · `Power BI` · `Digital Transformation`
 
 ConsultLab will move into **Featured Projects** once a working version and its supporting consulting deliverables are complete.
 
@@ -179,71 +192,41 @@ ConsultLab will move into **Featured Projects** once a working version and its s
 
 # `> experience`
 
-## 🟠 Amazon Development Centre
+### 🟠 Amazon Development Centre — ML Data Associate | Feb 2022 – Jan 2023
 
-### ML Data Associate | Feb 2022 – Jan 2023
+* Curated and annotated **100,000+ data points** feeding production machine-learning models, where labelling errors propagate directly into model output.
+* Held accuracy against measured quality thresholds in a **target-driven operations environment**, balancing throughput with precision on every batch.
+* Applied and helped tighten **data-quality standards** on large-scale datasets — the discipline that underpins every analysis I've done since.
 
-* Worked with large-scale datasets supporting production machine-learning processes.
-* Curated and analysed **100,000+ data points** while operating within defined quality requirements.
-* Worked in a target-driven environment where productivity, consistency and accuracy were measured.
-* Developed practical exposure to **data quality and large-scale data operations**.
+`Data Quality` · `Large-Scale Data Operations` · `Machine Learning Data` · `Process Accuracy`
 
-`Data Analysis` · `Data Quality` · `Machine Learning Data` · `Process Accuracy`
+### 🔵 VRBB & Associates (Chartered Accountants) — Business Consulting Intern | May 2024 – Jul 2024
 
----
+* Built **due-diligence review checklists** across legal, financial and secretarial workstreams, and evaluated client documentation against them.
+* **Mapped end-to-end business processes** for Business Development and CRM, then drafted the **standard operating procedures** to make them repeatable.
+* Designed an **MIS reporting framework** so management could track performance against consistent measures.
+* Mapped the **lead-generation process** end to end and identified where prospects were being lost.
+* Attended **client meetings** and translated what was discussed into structured documentation and due-diligence reports.
 
-## 🔵 VRBB Associates
-
-### Business Consulting Intern | May 2024 – Jul 2024
-
-* Supported **requirements gathering and client needs assessment**.
-* Assisted with analysing and documenting business requirements.
-* Contributed to business analysis and reporting activities.
-* Gained exposure to translating stakeholder needs into structured requirements.
-
-`Business Analysis` · `Requirements Gathering` · `Stakeholder Needs` · `Documentation`
+`Business Process Mapping` · `Requirements Gathering` · `SOP Development` · `MIS Design` · `Due Diligence` · `Client-Facing Documentation`
 
 ---
 
 # `> education`
 
-### 🎓 University of Limerick 🇮🇪
-
-**MSc Software Development**
-
-Postgraduate study combining software development, computing and applied technology.
-
----
-
-### 🎓 Thiagarajar School of Management 🇮🇳
-
-**PGDM — Business Analytics**
-
-Focused on applying analytical methods to business and management problems.
-
----
-
-### 🎓 B.S. Abdur Rahman Crescent Institute of Science and Technology 🇮🇳
-
-**Bachelor of Computer Applications — Data Science**
-
-Foundation in computing, programming and data science.
+| | | |
+|---|---|---|
+| 🇮🇪 **University of Limerick** | MSc Software Development (International Systems) | 2025 – 2027 |
+| 🇮🇳 **Thiagarajar School of Management** | PGDM — Business Analytics | 2023 – 2025 |
+| 🇮🇳 **B.S. Abdur Rahman Crescent Institute** | BCA — Data Science | 2017 – 2020 |
 
 ---
 
 # `> certifications`
 
-### 📊 Google Data Analytics Professional Certificate
+`Google Data Analytics Professional Certificate` · `McKinsey.org Forward Program` · `INSEAD — Blockchain and Business`
 
-`Data Analysis` · `Data Cleaning` · `Visualisation` · `Analytical Thinking`
-
-### 💼 McKinsey.org Forward Program
-
-Professional development focused on problem solving, communication and adaptable workplace capabilities.
-
-### ⛓️ INSEAD — Blockchain and Business
-
-Exploration of blockchain technology from a business and organisational perspective.
+**In progress:** `Microsoft PL-300 — Power BI Data Analyst`
 
 ---
 
@@ -254,9 +237,7 @@ Rajkumar:
 
   learning:
     - Microsoft PL-300 Power BI Data Analyst
-    - Power Query
-    - Data Modelling
-    - DAX
+    - Power Query, Data Modelling, DAX
 
   building:
     - ConsultLab
@@ -276,51 +257,13 @@ Rajkumar:
 
 ---
 
-# `> what-i-am-working-towards`
-
-I'm developing a profile at the intersection of:
-
-<div align="center">
-
-### 💼 Business
-
-**+**
-
-### 📊 Data
-
-**+**
-
-### 💻 Technology
-
-</div>
-
-I enjoy understanding **why a business problem exists**, using **data to investigate it**, and exploring how **technology can contribute to a practical solution**.
-
----
-
-# `> connect`
-
 <div align="center">
 
 ### Let's connect.
 
 I'm interested in opportunities where **business understanding, data and technology come together to solve real organisational problems**.
 
-<br>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rajkumar_Vijayan-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://linkedin.com/in/rajkumar-vijayan-0135a8338/)
-
-[![Email](https://img.shields.io/badge/Email-vijayanrajkumar478%40gmail.com-EA4335?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:vijayanrajkumar478@gmail.com)
-
-<br><br>
-
-📍 **Limerick, Ireland**
-
-📧 **[vijayanrajkumar478@gmail.com](mailto:vijayanrajkumar478@gmail.com)**
-
-<br><br>
-
-### Business × Data × Technology
+[LinkedIn](https://linkedin.com/in/rajkumar-vijayan-0135a8338/) · [vijayanrajkumar478@gmail.com](mailto:vijayanrajkumar478@gmail.com) · 📍 Limerick, Ireland
 
 *Understanding problems. Finding insights. Building practical solutions.*
 
