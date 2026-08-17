@@ -12,7 +12,6 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://linkedin.com/in/rajkumar-vijayan-0135a8338/)
 [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:vijayanrajkumar478@gmail.com)
-[![Phone](https://img.shields.io/badge/Phone-%2B353_83_181_7915-25D366?style=for-the-badge\&logo=whatsapp\&logoColor=white)](tel:+353831817915)
 
 📍 **Limerick, Ireland**
 
@@ -60,15 +59,15 @@ My current focus is developing the combination of **business understanding, anal
 
 ### Business Analysis
 
-`Requirements Gathering` `Stakeholder Analysis` `Process Analysis` `Business Requirements` `Problem Structuring`
+`Requirements Gathering` · `Stakeholder Analysis` · `Process Analysis` · `Business Requirements` · `Problem Structuring`
 
 ### Analytics
 
-`Data Analysis` `Customer Analytics` `KPI Analysis` `Data Visualisation` `Business Intelligence`
+`Data Analysis` · `Customer Analytics` · `KPI Analysis` · `Data Visualisation` · `Business Intelligence`
 
 ### Business Problem Solving
 
-`Root-Cause Analysis` `Commercial Thinking` `Insight Generation` `Recommendation Development`
+`Root-Cause Analysis` · `Commercial Thinking` · `Insight Generation` · `Recommendation Development`
 
 ---
 
@@ -77,9 +76,7 @@ My current focus is developing the combination of **business understanding, anal
 ### 📊 Data & Business Intelligence
 
 <p>
-<img src="https://skillicons.dev/icons?i=python" height="45"/>
-&nbsp;
-<img src="https://skillicons.dev/icons?i=postgres" height="45"/>
+<img src="https://skillicons.dev/icons?i=python,postgres" height="45"/>
 </p>
 
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge\&logo=powerbi\&logoColor=000000)
@@ -151,17 +148,7 @@ A business-focused analysis of CRM and sales pipeline data designed to understan
 
 ### Analysis
 
-The project explores customer and pipeline performance using techniques including:
-
-`RFM Segmentation`
-
-`Pipeline Conversion Analysis`
-
-`Customer Segmentation`
-
-`Top-of-Funnel Analysis`
-
-`Business KPI Analysis`
+`RFM Segmentation` · `Pipeline Conversion Analysis` · `Customer Segmentation` · `Top-of-Funnel Analysis` · `Business KPI Analysis`
 
 ### Business Objective
 
@@ -182,15 +169,7 @@ A customer analytics project exploring **customer growth, retention, churn and l
 
 ### Focus
 
-`Customer Analytics`
-
-`Retention Analysis`
-
-`Churn Analysis`
-
-`Customer Segmentation`
-
-`Business Strategy`
+`Customer Analytics` · `Retention Analysis` · `Churn Analysis` · `Customer Segmentation` · `Business Strategy`
 
 The project focuses on translating customer data into **business questions, insights and potential actions**, rather than treating visualisation as the final objective.
 
@@ -202,15 +181,7 @@ A Java-based matching engine project exploring the internal mechanics of an elec
 
 ### Components
 
-`Order Book`
-
-`Matching Engine`
-
-`Trade Execution`
-
-`Risk Logic`
-
-`Repository Layer`
+`Order Book` · `Matching Engine` · `Trade Execution` · `Risk Logic` · `Repository Layer`
 
 ### Technology
 
@@ -226,17 +197,7 @@ An engineering project exploring how AI inference requests can be scheduled effi
 
 ### Concepts Explored
 
-`Dynamic Batching`
-
-`Worker Scheduling`
-
-`Priority Queues`
-
-`Concurrency`
-
-`Latency Measurement`
-
-`p50 / p95 / p99 Performance`
+`Dynamic Batching` · `Worker Scheduling` · `Priority Queues` · `Concurrency` · `Latency Measurement` · `p50 / p95 / p99 Performance`
 
 ### Technology
 
@@ -261,7 +222,7 @@ This project explores the systems-engineering side of AI infrastructure and perf
 
 **Skills**
 
-`Data Analysis` `Data Quality` `Machine Learning Data` `Process Accuracy` `Large-Scale Data`
+`Data Analysis` · `Data Quality` · `Machine Learning Data` · `Process Accuracy` · `Large-Scale Data`
 
 ---
 
@@ -278,7 +239,7 @@ This project explores the systems-engineering side of AI infrastructure and perf
 
 **Skills**
 
-`Business Analysis` `Requirements Gathering` `Stakeholder Needs` `Documentation` `Consulting`
+`Business Analysis` · `Requirements Gathering` · `Stakeholder Needs` · `Documentation` · `Consulting`
 
 ---
 
@@ -355,26 +316,6 @@ Rajkumar:
 
 ---
 
-# `> github-activity`
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Rajkumar0863&show_icons=true&hide_border=true&rank_icon=github" height="165"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rajkumar0863&layout=compact&hide_border=true" height="165"/>
-
-</div>
-
-<br>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Rajkumar0863&hide_border=true" />
-
-</div>
-
----
-
 # `> what-i-am-working-towards`
 
 I'm developing a profile at the intersection of:
@@ -410,8 +351,6 @@ I'm interested in opportunities across **Technology Consulting, Business Analysi
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Rajkumar_Vijayan-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://linkedin.com/in/rajkumar-vijayan-0135a8338/)
 
 [![Email](https://img.shields.io/badge/Email-vijayanrajkumar478%40gmail.com-EA4335?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:vijayanrajkumar478@gmail.com)
-
-[![Phone](https://img.shields.io/badge/Phone-%2B353_83_181_7915-25D366?style=for-the-badge\&logo=whatsapp\&logoColor=white)](tel:+353831817915)
 
 <br><br>
 
