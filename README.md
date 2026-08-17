@@ -51,17 +51,11 @@ I'm particularly interested in **Technology Consulting, Business Analysis, Digit
 
 ### 📊 Data & Business Intelligence
 
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square\&logo=powerbi\&logoColor=000000)
-![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=flat-square\&logo=microsoftexcel\&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square\&logo=python\&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square\&logo=pandas\&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4169E1?style=flat-square\&logo=postgresql\&logoColor=white)
+`Power BI` · `SQL` · `Python` · `Pandas` · `Excel` · `Data Visualisation` · `KPI Analysis`
 
 ### 💻 Technology
 
-<p>
-<img src="https://skillicons.dev/icons?i=python,java,cpp,cs,js,gcp,docker,git,github,vscode" height="42"/>
-</p>
+`Java` · `C++` · `C#` · `JavaScript` · `Git` · `Docker` · `Google Cloud`
 
 ---
 
