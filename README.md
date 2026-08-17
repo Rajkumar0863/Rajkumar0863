@@ -27,7 +27,7 @@ Before my MSc, I worked as an **ML Data Associate at Amazon Development Centre**
 
 My interests sit at the intersection of:
 
-```text id="6jfbpb"
+```text
 Business Problem
       ↓
 Data & Analysis
@@ -69,19 +69,26 @@ I'm particularly interested in **Technology Consulting, Business Analysis, Digit
 
 ## 01 — 📈 CRM Sales Pipeline Analysis
 
-A business-focused analysis of CRM and sales pipeline data exploring **customer value, pipeline conversion and commercial opportunities**.
+A commercial analytics project examining **8,800 sales opportunities** to understand pipeline performance, customer value and recoverable revenue opportunities.
 
-### Business Question
+### Business Problem
 
-Where are customers dropping out of the sales pipeline, which segments create the most value, and where could sales performance improve?
+Where is value being lost across the sales pipeline, which segments perform strongest, and where should commercial teams focus intervention?
 
-### Methods
+### Key Findings
 
-`RFM Segmentation` · `Pipeline Conversion Analysis` · `Customer Segmentation` · `KPI Analysis`
+* Analysed **8,800 sales opportunities**
+* Evaluated pipeline performance against an overall **63.2% win rate**
+* Identified approximately **$237K in conservative recoverable revenue opportunity**
+* Used customer and pipeline segmentation to identify commercially important areas for intervention
+
+### Methods & Tools
+
+`SQL` · `Python` · `RFM Segmentation` · `Pipeline Conversion Analysis` · `Customer Segmentation` · `KPI Analysis` · `Tableau`
 
 ### Outcome
 
-Translated CRM data into insights around **customer value, conversion performance and potential revenue opportunities**.
+Translated CRM data into a commercial story connecting **pipeline leakage, customer value and revenue opportunity** to potential sales actions.
 
 ➡️ **[View Project](https://github.com/Rajkumar0863/crm-sales-pipeline-analysis)**
 
@@ -89,19 +96,26 @@ Translated CRM data into insights around **customer value, conversion performanc
 
 ## 02 — 🛒 Retail Customer Growth Analysis
 
-A customer analytics project investigating **growth, retention, churn and loyalty** in a retail context.
+A customer analytics project analysing **700K+ retail transactions across 5,350 customers** to investigate customer value, retention, churn and growth opportunities.
 
-### Business Question
+### Business Problem
 
-Which customer groups create the most value, where is churn occurring, and what behaviour is associated with stronger retention?
+Which customer groups create the greatest commercial value, where is retention at risk, and which segments should the business prioritise?
 
-### Methods
+### Key Findings
 
-`Customer Analytics` · `Retention Analysis` · `Churn Analysis` · `Customer Segmentation`
+* Analysed approximately **700,000 transactions**
+* Evaluated behaviour across **5,350 customers**
+* Identified an estimated **£144K customer retention opportunity**
+* Found that **Champions represented 34.8% of customers while contributing 75.4% of revenue**
+
+### Methods & Tools
+
+`Python` · `RFM Segmentation` · `Customer Analytics` · `Retention Analysis` · `Customer Segmentation` · `Power BI`
 
 ### Outcome
 
-Converted customer data into business-focused insights around **retention, customer value and growth opportunities**.
+Converted transactional data into a customer-growth story focused on **retention, customer value and prioritisation of commercially important segments**.
 
 ➡️ **[View Project](https://github.com/Rajkumar0863/retail-customer-growth)**
 
@@ -113,7 +127,17 @@ Converted customer data into business-focused insights around **retention, custo
 
 ### Java-Based Electronic Trading Matching Engine
 
-Built software components around defined trading rules, including an **order book, matching engine, trade execution and risk logic**.
+A Java project exploring the core mechanics of electronic trading systems through an **order book, matching engine and trade execution workflow**.
+
+### What I Built
+
+* Order representation and management
+* Buy/sell order book processing
+* Order matching logic
+* Trade execution workflow
+* Object-oriented component structure
+
+### Technology
 
 `Java` · `Object-Oriented Programming` · `Data Structures` · `System Design`
 
@@ -129,14 +153,16 @@ Built software components around defined trading rules, including an **order boo
 
 > 🚧 **Work in progress**
 
-I'm developing ConsultLab as a consulting-focused project exploring how a technology consultant can move from an ambiguous business problem toward a structured, technology-enabled recommendation.
+I'm developing **ConsultLab** as a consulting-focused project exploring how a technology consultant can move from an ambiguous business problem toward a structured, technology-enabled recommendation.
 
-The planned project journey is:
+### Planned Consulting Journey
 
-```text id="k7nzua"
+```text
 Client Problem
      ↓
 Business Analysis
+     ↓
+Stakeholder & Process Analysis
      ↓
 Data Investigation
      ↓
@@ -149,11 +175,11 @@ Recommendation
 Business Impact
 ```
 
-**Planned Focus**
+### Planned Focus
 
 `Business Analysis` · `Power BI` · `Data Analysis` · `Digital Transformation` · `Technology Consulting`
 
-ConsultLab will move into **Featured Projects** once a working version and supporting deliverables are complete.
+ConsultLab will move into **Featured Projects** once a working version and its supporting consulting deliverables are complete.
 
 ---
 
@@ -229,7 +255,7 @@ Exploration of blockchain technology from a business and organisational perspect
 
 # `> current-focus`
 
-```yaml id="5e0u6q"
+```yaml
 Rajkumar:
 
   learning:
