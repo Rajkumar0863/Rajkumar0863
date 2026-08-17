@@ -27,7 +27,7 @@ Before my MSc, I worked as an **ML Data Associate at Amazon Development Centre**
 
 My interests sit at the intersection of:
 
-```text
+```text id="6jfbpb"
 Business Problem
       ↓
 Data & Analysis
@@ -67,15 +67,73 @@ I'm particularly interested in **Technology Consulting, Business Analysis, Digit
 
 # `> featured-projects`
 
-## 01 — 🏢 ConsultLab
+## 01 — 📈 CRM Sales Pipeline Analysis
+
+A business-focused analysis of CRM and sales pipeline data exploring **customer value, pipeline conversion and commercial opportunities**.
+
+### Business Question
+
+Where are customers dropping out of the sales pipeline, which segments create the most value, and where could sales performance improve?
+
+### Methods
+
+`RFM Segmentation` · `Pipeline Conversion Analysis` · `Customer Segmentation` · `KPI Analysis`
+
+### Outcome
+
+Translated CRM data into insights around **customer value, conversion performance and potential revenue opportunities**.
+
+➡️ **[View Project](https://github.com/Rajkumar0863/crm-sales-pipeline-analysis)**
+
+---
+
+## 02 — 🛒 Retail Customer Growth Analysis
+
+A customer analytics project investigating **growth, retention, churn and loyalty** in a retail context.
+
+### Business Question
+
+Which customer groups create the most value, where is churn occurring, and what behaviour is associated with stronger retention?
+
+### Methods
+
+`Customer Analytics` · `Retention Analysis` · `Churn Analysis` · `Customer Segmentation`
+
+### Outcome
+
+Converted customer data into business-focused insights around **retention, customer value and growth opportunities**.
+
+➡️ **[View Project](https://github.com/Rajkumar0863/retail-customer-growth)**
+
+---
+
+# `> additional-engineering-projects`
+
+## ⚙️ TradeMatch Exchange
+
+### Java-Based Electronic Trading Matching Engine
+
+Built software components around defined trading rules, including an **order book, matching engine, trade execution and risk logic**.
+
+`Java` · `Object-Oriented Programming` · `Data Structures` · `System Design`
+
+➡️ **[View Project](https://github.com/Rajkumar0863/TradeMatchExchange)**
+
+---
+
+# `> currently-building`
+
+## 🏢 ConsultLab
 
 ### Business & Technology Consulting Simulation
 
-> 🚧 **Currently Building**
+> 🚧 **Work in progress**
 
-A consulting-focused project designed to demonstrate how a technology consultant can move from an ambiguous **business problem** through analysis to a practical **technology-enabled recommendation**.
+I'm developing ConsultLab as a consulting-focused project exploring how a technology consultant can move from an ambiguous business problem toward a structured, technology-enabled recommendation.
 
-```text
+The planned project journey is:
+
+```text id="k7nzua"
 Client Problem
      ↓
 Business Analysis
@@ -91,77 +149,11 @@ Recommendation
 Business Impact
 ```
 
-**Focus**
+**Planned Focus**
 
 `Business Analysis` · `Power BI` · `Data Analysis` · `Digital Transformation` · `Technology Consulting`
 
-**Status:** 🚧 Development in progress
-
----
-
-## 02 — 📈 CRM Sales Pipeline Analysis
-
-A business-focused analysis of CRM and sales pipeline data exploring **customer value, pipeline conversion and commercial opportunities**.
-
-**Business Question**
-
-Where are customers dropping out of the sales pipeline, which segments create the most value, and where could sales performance improve?
-
-**Methods**
-
-`RFM Segmentation` · `Pipeline Conversion Analysis` · `Customer Segmentation` · `KPI Analysis`
-
-**Outcome**
-
-Translated CRM data into insights around **customer value, conversion performance and potential revenue opportunities**.
-
-➡️ **[View Project](https://github.com/Rajkumar0863/crm-sales-pipeline-analysis)**
-
----
-
-## 03 — 🛒 Retail Customer Growth Analysis
-
-A customer analytics project investigating **growth, retention, churn and loyalty** in a retail context.
-
-**Business Question**
-
-Which customer groups create the most value, where is churn occurring, and what behaviour is associated with stronger retention?
-
-**Methods**
-
-`Customer Analytics` · `Retention Analysis` · `Churn Analysis` · `Customer Segmentation`
-
-**Outcome**
-
-Converted customer data into business-focused insights around **retention, customer value and growth opportunities**.
-
-➡️ **[View Project](https://github.com/Rajkumar0863/retail-customer-growth)**
-
----
-
-# `> additional-engineering-projects`
-
-## ⚙️ TradeMatch Exchange
-
-**Java-based electronic trading matching engine**
-
-Built software components around defined trading rules, including an **order book, matching engine, trade execution and risk logic**.
-
-`Java` · `Object-Oriented Programming` · `Data Structures` · `System Design`
-
-➡️ **[View Project](https://github.com/Rajkumar0863/TradeMatchExchange)**
-
----
-
-## ⚡ C++ AI Inference Scheduler
-
-**AI inference request scheduling and performance engineering**
-
-Explores efficient scheduling of AI inference workloads using **dynamic batching, worker scheduling, concurrency and latency measurement**.
-
-`C++` · `Concurrency` · `Priority Queues` · `Performance Engineering`
-
-➡️ **[View Project](https://github.com/Rajkumar0863/cpp-ai-inference-scheduler)**
+ConsultLab will move into **Featured Projects** once a working version and supporting deliverables are complete.
 
 ---
 
@@ -237,7 +229,7 @@ Exploration of blockchain technology from a business and organisational perspect
 
 # `> current-focus`
 
-```yaml
+```yaml id="5e0u6q"
 Rajkumar:
 
   learning:
