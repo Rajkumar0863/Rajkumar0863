@@ -21,7 +21,7 @@
 
 ## `> whoami`
 
-I'm an **MSc Software Development student at the University of Limerick**, building on a background in **Business Analytics and Data Science**.
+I'm currently pursuing an **MSc in Software Development at the University of Limerick**, building on a background in **Business Analytics and Data Science**.
 
 Before my MSc, I worked as an **ML Data Associate at Amazon Development Centre**, working with large-scale datasets supporting machine-learning processes. I later gained exposure to **business consulting, requirements gathering and client needs analysis** through an internship with **VRBB Associates**.
 
@@ -51,11 +51,17 @@ I'm particularly interested in **Technology Consulting, Business Analysis, Digit
 
 ### 📊 Data & Business Intelligence
 
-`Power BI` · `SQL` · `Python` · `Pandas` · `Excel` · `Data Visualisation` · `KPI Analysis`
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square\&logo=powerbi\&logoColor=000000)
+![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=flat-square\&logo=microsoftexcel\&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square\&logo=python\&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square\&logo=pandas\&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4169E1?style=flat-square\&logo=postgresql\&logoColor=white)
 
 ### 💻 Technology
 
-`Java` · `C++` · `C#` · `JavaScript` · `Git` · `Docker` · `Google Cloud`
+<p>
+<img src="https://skillicons.dev/icons?i=python,java,cpp,cs,js,gcp,docker,git,github,vscode" height="42"/>
+</p>
 
 ---
 
@@ -85,7 +91,9 @@ Recommendation
 Business Impact
 ```
 
-**Focus:** `Business Analysis` · `Power BI` · `Data Analysis` · `Digital Transformation` · `Technology Consulting`
+**Focus**
+
+`Business Analysis` · `Power BI` · `Data Analysis` · `Digital Transformation` · `Technology Consulting`
 
 **Status:** 🚧 Development in progress
 
@@ -95,16 +103,19 @@ Business Impact
 
 A business-focused analysis of CRM and sales pipeline data exploring **customer value, pipeline conversion and commercial opportunities**.
 
-**Business Question:**
+**Business Question**
+
 Where are customers dropping out of the sales pipeline, which segments create the most value, and where could sales performance improve?
 
-**Methods:**
+**Methods**
+
 `RFM Segmentation` · `Pipeline Conversion Analysis` · `Customer Segmentation` · `KPI Analysis`
 
-**Outcome:**
+**Outcome**
+
 Translated CRM data into insights around **customer value, conversion performance and potential revenue opportunities**.
 
-➡️ **[View Project](REPLACE-WITH-CRM-REPOSITORY-URL)**
+➡️ **[View Project](https://github.com/Rajkumar0863/crm-sales-pipeline-analysis)**
 
 ---
 
@@ -112,34 +123,37 @@ Translated CRM data into insights around **customer value, conversion performanc
 
 A customer analytics project investigating **growth, retention, churn and loyalty** in a retail context.
 
-**Business Question:**
+**Business Question**
+
 Which customer groups create the most value, where is churn occurring, and what behaviour is associated with stronger retention?
 
-**Methods:**
+**Methods**
+
 `Customer Analytics` · `Retention Analysis` · `Churn Analysis` · `Customer Segmentation`
 
-**Outcome:**
+**Outcome**
+
 Converted customer data into business-focused insights around **retention, customer value and growth opportunities**.
 
-➡️ **[View Project](REPLACE-WITH-RETAIL-REPOSITORY-URL)**
+➡️ **[View Project](https://github.com/Rajkumar0863/retail-customer-growth)**
 
 ---
 
-## `> additional-engineering-projects`
+# `> additional-engineering-projects`
 
-### ⚙️ TradeMatch Exchange
+## ⚙️ TradeMatch Exchange
 
 **Java-based electronic trading matching engine**
 
 Built software components around defined trading rules, including an **order book, matching engine, trade execution and risk logic**.
 
-`Java` · `OOP` · `Data Structures` · `System Design`
+`Java` · `Object-Oriented Programming` · `Data Structures` · `System Design`
 
-➡️ **[View Project](REPLACE-WITH-TRADEMATCH-REPOSITORY-URL)**
+➡️ **[View Project](https://github.com/Rajkumar0863/TradeMatchExchange)**
 
 ---
 
-### ⚡ C++ AI Inference Scheduler
+## ⚡ C++ AI Inference Scheduler
 
 **AI inference request scheduling and performance engineering**
 
@@ -185,26 +199,39 @@ Explores efficient scheduling of AI inference workloads using **dynamic batching
 
 **MSc Software Development**
 
+Postgraduate study combining software development, computing and applied technology.
+
+---
+
 ### 🎓 Thiagarajar School of Management 🇮🇳
 
 **PGDM — Business Analytics**
+
+Focused on applying analytical methods to business and management problems.
+
+---
 
 ### 🎓 B.S. Abdur Rahman Crescent Institute of Science and Technology 🇮🇳
 
 **Bachelor of Computer Applications — Data Science**
 
+Foundation in computing, programming and data science.
+
 ---
 
 # `> certifications`
 
-**📊 Google Data Analytics Professional Certificate**
+### 📊 Google Data Analytics Professional Certificate
+
 `Data Analysis` · `Data Cleaning` · `Visualisation` · `Analytical Thinking`
 
-**💼 McKinsey.org Forward Program**
-Professional development in problem solving, communication and adaptable workplace skills.
+### 💼 McKinsey.org Forward Program
 
-**⛓️ INSEAD — Blockchain and Business**
-Business and organisational applications of blockchain technology.
+Professional development focused on problem solving, communication and adaptable workplace capabilities.
+
+### ⛓️ INSEAD — Blockchain and Business
+
+Exploration of blockchain technology from a business and organisational perspective.
 
 ---
 
@@ -234,6 +261,28 @@ Rajkumar:
     - Business Intelligence
     - Data & AI
 ```
+
+---
+
+# `> what-i-am-working-towards`
+
+I'm developing a profile at the intersection of:
+
+<div align="center">
+
+### 💼 Business
+
+**+**
+
+### 📊 Data
+
+**+**
+
+### 💻 Technology
+
+</div>
+
+I enjoy understanding **why a business problem exists**, using **data to investigate it**, and exploring how **technology can contribute to a practical solution**.
 
 ---
 
