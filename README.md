@@ -11,8 +11,10 @@
 <br>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://linkedin.com/in/rajkumar-vijayan-0135a8338/)
-[![GitHub](https://img.shields.io/badge/GitHub-Rajkumar0863-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/Rajkumar0863)
 [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:vijayanrajkumar478@gmail.com)
+[![Phone](https://img.shields.io/badge/Phone-%2B353_83_181_7915-25D366?style=for-the-badge\&logo=whatsapp\&logoColor=white)](tel:+353831817915)
+
+📍 **Limerick, Ireland**
 
 </div>
 
@@ -56,15 +58,15 @@ My current focus is developing the combination of **business understanding, anal
 
 ## `> business-toolkit`
 
-**Business Analysis**
+### Business Analysis
 
 `Requirements Gathering` `Stakeholder Analysis` `Process Analysis` `Business Requirements` `Problem Structuring`
 
-**Analytics**
+### Analytics
 
 `Data Analysis` `Customer Analytics` `KPI Analysis` `Data Visualisation` `Business Intelligence`
 
-**Business Problem Solving**
+### Business Problem Solving
 
 `Root-Cause Analysis` `Commercial Thinking` `Insight Generation` `Recommendation Development`
 
@@ -108,7 +110,7 @@ My current focus is developing the combination of **business understanding, anal
 
 ConsultLab is a consulting-focused project designed to simulate how a technology consultant approaches a business problem — from understanding the client situation to analysing data and recommending technology-enabled improvements.
 
-### Consulting workflow
+### Consulting Workflow
 
 ```text
 Client Situation
@@ -128,7 +130,7 @@ Recommendation
 Business Impact
 ```
 
-**Focus Areas**
+### Focus Areas
 
 `Business Analysis` · `Power BI` · `Data Analysis` · `Digital Transformation` · `Technology Consulting`
 
@@ -140,7 +142,7 @@ The objective is not simply to build a dashboard, but to demonstrate the full jo
 
 A business-focused analysis of CRM and sales pipeline data designed to understand customer behaviour, sales performance and conversion opportunities.
 
-### Business questions
+### Business Questions
 
 * Where are potential customers dropping out of the sales pipeline?
 * Which customer groups contribute the most value?
@@ -161,7 +163,7 @@ The project explores customer and pipeline performance using techniques includin
 
 `Business KPI Analysis`
 
-### Business objective
+### Business Objective
 
 Turn CRM data into insights that could help a commercial team understand **where revenue opportunities exist and where the sales process could improve**.
 
@@ -171,7 +173,7 @@ Turn CRM data into insights that could help a commercial team understand **where
 
 A customer analytics project exploring **customer growth, retention, churn and loyalty** in a retail context.
 
-### Business questions
+### Business Questions
 
 * Which customers are most valuable?
 * Where is customer churn occurring?
@@ -222,7 +224,7 @@ The project strengthened my understanding of designing software components aroun
 
 An engineering project exploring how AI inference requests can be scheduled efficiently across multiple workers.
 
-### Concepts explored
+### Concepts Explored
 
 `Dynamic Batching`
 
@@ -308,15 +310,15 @@ Foundation in computing, programming and data science.
 
 # `> certifications`
 
-### Google Data Analytics Professional Certificate
+### 📊 Google Data Analytics Professional Certificate
 
-Data analysis · Data cleaning · Visualisation · Analytical thinking
+`Data Analysis` · `Data Cleaning` · `Visualisation` · `Analytical Thinking`
 
-### McKinsey.org Forward Program
+### 💼 McKinsey.org Forward Program
 
 Professional development focused on adaptable skills, problem solving and workplace capabilities.
 
-### INSEAD — Blockchain and Business
+### ⛓️ INSEAD — Blockchain and Business
 
 Exploration of blockchain technology from a business and organisational perspective.
 
@@ -401,17 +403,25 @@ I enjoy understanding **why a business problem exists**, using **data to investi
 
 ### Let's connect.
 
-I'm interested in **Technology Consulting, Business Analysis, Digital Transformation, Business Intelligence and Data & AI** opportunities.
+I'm interested in opportunities across **Technology Consulting, Business Analysis, Digital Transformation, Business Intelligence and Data & AI**.
 
 <br>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Rajkumar_Vijayan-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://linkedin.com/in/rajkumar-vijayan-0135a8338/)
 
-[![GitHub](https://img.shields.io/badge/GitHub-Rajkumar0863-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/Rajkumar0863)
-
 [![Email](https://img.shields.io/badge/Email-vijayanrajkumar478%40gmail.com-EA4335?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:vijayanrajkumar478@gmail.com)
 
-<br>
+[![Phone](https://img.shields.io/badge/Phone-%2B353_83_181_7915-25D366?style=for-the-badge\&logo=whatsapp\&logoColor=white)](tel:+353831817915)
+
+<br><br>
+
+📍 **Limerick, Ireland**
+
+📧 **[vijayanrajkumar478@gmail.com](mailto:vijayanrajkumar478@gmail.com)**
+
+📱 **+353 83 181 7915**
+
+<br><br>
 
 ### Business × Data × Technology
 
