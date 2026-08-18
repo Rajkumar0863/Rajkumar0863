@@ -4,9 +4,11 @@
 
 **MSc Software Development (International Systems) — University of Limerick 🇮🇪**
 
-*I work at the intersection of business, data and technology — structuring business problems, finding what the evidence actually says, and turning it into decisions and practical change.*
+*I structure business problems, establish what the evidence actually says, and turn that into decisions and practical change.*
 
 📍 Limerick, Ireland · [LinkedIn](https://www.linkedin.com/in/rajkumar-vijayan-0135a8338/) · [Tableau Public](https://public.tableau.com/app/profile/rajkumar.vijayan2695/vizzes) · [Email](mailto:vijayanrajkumar478@gmail.com)
+
+**Seeking:** graduate technology consulting, business analysis and digital transformation roles · **Available from:** May 2027 · **Based in Ireland, open to Dublin**
 
 ---
 
@@ -14,15 +16,64 @@
 
 | Project | Question it answers | What it found | Methods |
 |---|---|---|---|
-| **[CRM Sales Pipeline Analysis](https://github.com/Rajkumar0863/crm-sales-pipeline-analysis)** | Where is revenue leaking from the pipeline? | 63.2% win rate across 8,800 opportunities; identified **~$237K conservatively recoverable opportunity** from improving below-median agent performance | SQL · Python · Tableau |
-| **[Retail Customer Growth](https://github.com/Rajkumar0863/retail-customer-growth)** | Which customers create value, and where is retention at risk? | Champions represent **34.8% of customers but 75.4% of revenue**; quantified a **£144K base-case retention opportunity** | Python · RFM · Power BI |
-| **[ConsultLab](https://github.com/Rajkumar0863/consultlab)** | Where does a loan process lose value, and what should change? | **33.1% of applications cancel after offer**; post-offer follow-up accounts for **65.5% of total queue time**; recommendation breaks even at a **2.4% recovery rate** | Process Mining · BPMN · Business Analysis |
+| **[ConsultLab](https://github.com/Rajkumar0863/consultlab)** | Where does a loan process lose value, and what should change? | **33.1% of applications cancel after offer**; post-offer follow-up holds **65.5% of total queue time**; recommendation breaks even at a **2.4% recovery rate** | Process Mining · BPMN · Business Analysis |
+| **[CRM Sales Pipeline Analysis](https://github.com/Rajkumar0863/crm-sales-pipeline-analysis)** | Where is revenue leaking from the pipeline? | 63.2% win rate across 8,800 opportunities; **~$237K conservatively recoverable opportunity** from below-median agent performance | SQL · Python · Tableau |
+| **[Retail Customer Growth](https://github.com/Rajkumar0863/retail-customer-growth)** | Which customers create value, and where is retention at risk? | Champions are **34.8% of customers but 75.4% of revenue**; **£144K base-case retention opportunity** | Python · RFM · Power BI |
+
+---
+
+## `> how-i-work`
+
+Three principles that run through every project below, and that a reviewer can check against the artefacts:
+
+**Start from the business question, not the dataset.** Each project opens with a decision someone has to make. The analysis exists to inform it.
+
+**Say what the evidence cannot prove.** In ConsultLab the two lead findings co-occur in the data but causation is not established — so it is stated plainly, and the recommendation is designed around that limit rather than over it.
+
+**Size opportunities conservatively, and show the assumptions.** Every quantified figure carries its method and its sensitivity. Where a large number would flatter but mislead, it is excluded and the exclusion explained.
 
 ---
 
 ## `> featured-projects`
 
-### 01 — 📈 CRM Sales Pipeline Analysis
+### 01 — 🏢 ConsultLab — Business Analysis & Technology Consulting Engagement
+
+**[Recommendation deck (PDF) →](https://github.com/Rajkumar0863/consultlab/blob/main/05-deliverables/recommendation-deck.pdf) · [Repository →](https://github.com/Rajkumar0863/consultlab)**
+
+A complete consulting engagement applying **process mining and structured business analysis** to the BPI Challenge 2017 loan-application event log — from process discovery through to a costed, staged recommendation.
+
+Rather than assuming the documented process reflects reality, the engagement reconstructs the **as-is process from approximately 1.2M system events across 31,509 applications, 149 staff and 13 months of operational data**.
+
+#### Findings
+
+- **33.1% of applications cancel after a formal offer has been issued** — all had received an offer, while fewer than one in ten returned documentation.
+- Post-offer follow-up accounts for **65.5% of total queue time** — approximately **40,321 days of waiting versus 181 days of actual handling**.
+- **73.4% of successful applications** pass through a document-incompleteness loop, adding approximately **5.6 days** each.
+- **15,930 distinct process variants**, with no single path accounting for more than 3.4% of applications.
+
+> **Analytical limitation, stated up front:** the lead findings co-occur in the event log. The data establishes **co-occurrence, not causation** — so the recommendation is staged, with the first stage structured to test that assumption at low cost.
+
+#### Recommendation
+
+Reprioritise the post-offer follow-up queue by lapse risk first, then add automated applicant reminders — **delivered in two stages with a decision gate between them**. The programme breaks even at a **2.4% recovery rate** (233 of the 9,629 applications lost annually); stage one exposes €125,000 rather than €245,000 while establishing which case is true.
+
+*The €166m of requested principal across cancelled applications is deliberately not presented as a benefit — it is what applicants asked to borrow, not revenue.*
+
+#### Engagement artefacts
+
+| Phase | Deliverables |
+|---|---|
+| **Discovery** | Project brief · Stakeholder analysis & RACI |
+| **As-is** | Process mining analysis · As-is findings · As-is BPMN |
+| **Requirements** | Business requirements document · User stories with acceptance criteria · Requirements traceability matrix |
+| **To-be** | Solution options assessment (weighted scoring) · To-be BPMN · Business case with sensitivity analysis |
+| **Delivery** | Client recommendation deck · Implementation roadmap |
+
+`Business Analysis` · `Process Mining` · `BPMN` · `Requirements Engineering` · `BABOK v3` · `Options Appraisal` · `Business Case Development` · `Digital Transformation`
+
+---
+
+### 02 — 📈 CRM Sales Pipeline Analysis
 
 **[Live Interactive Dashboard →](https://public.tableau.com/app/profile/rajkumar.vijayan2695/viz/CRMSalesPipelineAnalysis/CRMSalesDashboard) · [Repository →](https://github.com/Rajkumar0863/crm-sales-pipeline-analysis)**
 
@@ -37,7 +88,7 @@ Analysed **8,800 B2B sales opportunities across four linked datasets** to answer
 
 ---
 
-### 02 — 🛒 Retail Customer Growth Analysis
+### 03 — 🛒 Retail Customer Growth Analysis
 
 **[Repository →](https://github.com/Rajkumar0863/retail-customer-growth)** · [Dashboard preview →](https://github.com/Rajkumar0863/retail-customer-growth/blob/main/dashboard.png) · [Power BI file →](https://github.com/Rajkumar0863/retail-customer-growth/blob/main/customer_growth_dashboard.pbix) · [Recommendation deck →](https://github.com/Rajkumar0863/retail-customer-growth/blob/main/customer_growth_deck.pptx)
 
@@ -49,37 +100,6 @@ Analysed **700K+ retail transactions across 5,350 customers** to answer one comm
 - Delivered the findings through an **interactive Power BI dashboard and 10-slide recommendation deck**.
 
 `Python` · `pandas` · `RFM Segmentation` · `Customer Analytics` · `Power BI`
-
----
-
-### 03 — 🏢 ConsultLab — Business Analysis & Technology Consulting Engagement
-
-**[Recommendation deck (PDF) →](https://github.com/Rajkumar0863/consultlab/blob/main/05-deliverables/recommendation-deck.pdf) · [Repository →](https://github.com/Rajkumar0863/consultlab)**
-
-A complete consulting engagement applying **process mining and structured business analysis** to the BPI Challenge 2017 loan-application event log — from process discovery through to a costed, staged recommendation.
-
-Rather than assuming the documented process reflects reality, the engagement reconstructs the **as-is process from approximately 1.2M system events across 31,509 applications, 149 staff and 13 months of operational data**.
-
-#### Findings
-
-- **33.1% of applications cancel after a formal offer has been issued**; all had received an offer, while fewer than one in ten returned documentation.
-- Post-offer follow-up accounts for **65.5% of total queue time** — approximately **40,321 days of waiting versus 181 days of actual handling**.
-- **73.4% of successful applications** pass through a document-incompleteness loop, adding approximately **5.6 days** each.
-- Identified **15,930 distinct process variants**, with no single path accounting for more than 3.4% of applications.
-
-> **Analytical limitation:** The lead findings co-occur in the event log. The data establishes **co-occurrence, not causation** — so the recommendation is staged, with the first stage structured to test that assumption at low cost.
-
-#### Recommendation
-
-Reprioritise the post-offer follow-up queue by lapse risk first, then add automated applicant reminders — **delivered in two stages with a decision gate between them**. The programme breaks even at a **2.4% recovery rate** (233 of 9,629 applications lost annually); stage one exposes €125,000 rather than €245,000 while establishing which case is true.
-
-*The €166m of requested principal across cancelled applications is deliberately not presented as a benefit — it is what applicants asked to borrow, not revenue.*
-
-#### Deliverables
-
-`Project Brief` · `Stakeholder Analysis & RACI` · `As-Is Findings` · `Process Mining Analysis` · `As-Is BPMN` · `Business Requirements Document` · `User Stories & Acceptance Criteria` · `Requirements Traceability Matrix` · `Solution Options Assessment` · `To-Be BPMN` · `Business Case` · `Recommendation Deck & Roadmap`
-
-`Business Analysis` · `Process Mining` · `BPMN` · `Requirements Analysis` · `Process Improvement` · `Technology Consulting`
 
 ---
 
@@ -97,21 +117,45 @@ Built to understand the mechanics behind an exchange rather than simply consume 
 
 ## `> capabilities`
 
-### Business Analysis & Consulting
+Each capability below is demonstrated somewhere a reviewer can open.
 
-`Problem Structuring` · `Requirements Analysis` · `Stakeholder Analysis` · `Process Mapping` · `Root-Cause Analysis` · `Solution Evaluation`
+| Capability | Where it is demonstrated |
+|---|---|
+| Requirements elicitation & documentation | ConsultLab BRD, user stories, traceability matrix · VRBB due-diligence checklists and SOPs |
+| Process mapping & improvement | ConsultLab as-is and to-be BPMN · VRBB Business Development and CRM process mapping |
+| Stakeholder analysis | ConsultLab stakeholder map and RACI across nine stakeholders |
+| Options appraisal & business case | ConsultLab weighted options assessment and sensitivity-tested business case |
+| Commercial analysis | CRM pipeline analysis · Retail customer growth analysis |
+| Data analysis & BI delivery | SQL and Python analysis across all three projects; Tableau and Power BI dashboards |
+| Client-facing communication | ConsultLab recommendation deck · Retail recommendation deck |
 
-### Data & Business Intelligence
+**Business analysis & consulting**
+`Problem Structuring` · `Requirements Analysis` · `Stakeholder Analysis` · `Process Mapping (BPMN)` · `Process Mining` · `Root-Cause Analysis` · `Options Appraisal` · `Business Case Development`
 
-`SQL` · `Python` · `pandas` · `Power BI` · `Tableau` · `Excel` · `KPI Analysis` · `Data Storytelling`
+**Data & business intelligence**
+`SQL` · `Python` · `pandas` · `Power BI` · `Tableau` · `Excel` · `KPI Design` · `Data Storytelling`
 
-### Technology
-
+**Technology**
 `Java` · `Python` · `Git` · `Object-Oriented Programming` · `Data Structures`
 
 ---
 
 ## `> experience`
+
+### 🔵 VRBB & Associates — Business Consulting Intern
+**May – Jul 2024**
+
+Worked across business-development, due-diligence and internal reporting processes, translating operational needs and client discussions into structured documentation.
+
+- Built **due-diligence checklists** spanning legal, financial and secretarial workstreams to structure information required across engagements.
+- Mapped **end-to-end Business Development and CRM processes**, documenting workflows and developing SOPs to make activities more repeatable.
+- Designed an **MIS reporting framework** to organise management information and improve visibility into business activity.
+- Analysed the **lead-generation process to identify where prospects were being lost** across the pipeline.
+- Supported client discussions by translating **requirements and follow-up actions into structured documentation**.
+
+**What it taught me:** *Understand the business problem and the process before recommending the technology.*
+
+---
 
 ### 🟠 Amazon Development Centre — ML Data Associate
 **Feb 2022 – Jan 2023**
@@ -126,41 +170,19 @@ Worked in a production ML data environment where the quality of human-labelled d
 
 ---
 
-### 🔵 VRBB & Associates — Business Consulting Intern
-**May – Jul 2024**
-
-Worked across business-development, due-diligence and internal reporting processes, translating operational needs and discussions into structured documentation.
-
-- Built **due-diligence checklists** spanning legal, financial and secretarial workstreams to structure information required across engagements.
-- Mapped **end-to-end Business Development and CRM processes**, documenting workflows and developing SOPs to make activities more repeatable.
-- Designed an **MIS reporting framework** to organise management information and improve visibility into business activity.
-- Analysed the **lead-generation process to identify where prospects were being lost** across the pipeline.
-- Supported client discussions by translating **requirements and follow-up actions into structured documentation**.
-
-**What it taught me:** *Understand the business problem and process before recommending the technology.*
-
----
-
 ## `> education`
 
-### 🇮🇪 University of Limerick
-**MSc Software Development (International Systems)**  
-2025 – 2027
-
-### 🇮🇳 Thiagarajar School of Management
-**PGDM — Business Analytics**  
-2023 – 2025
-
-### 🇮🇳 B.S. Abdur Rahman Crescent Institute of Science and Technology
-**BCA — Data Science**  
-2017 – 2020
+| | | |
+|---|---|---|
+| 🇮🇪 **University of Limerick** | MSc Software Development (International Systems) | 2025 – 2027 |
+| 🇮🇳 **Thiagarajar School of Management** | PGDM — Business Analytics | 2023 – 2025 |
+| 🇮🇳 **B.S. Abdur Rahman Crescent Institute** | BCA — Data Science | 2017 – 2020 |
 
 ---
 
 ## `> professional-development`
 
-**Google Data Analytics Professional Certificate**  
-**McKinsey.org Forward Program**
+**Google Data Analytics Professional Certificate** · **McKinsey.org Forward Program**
 
 **Currently working toward:** Microsoft PL-300 — Power BI Data Analyst
 
@@ -168,11 +190,13 @@ Worked across business-development, due-diligence and internal reporting process
 
 ## `> let's-connect`
 
-I'm interested in graduate opportunities where **business understanding, data and technology come together to solve real organisational problems** — particularly:
+I'm looking for graduate opportunities where **business understanding, data and technology come together to solve real organisational problems** — particularly:
 
 **Technology Consulting · Business Analysis · Digital Transformation · Business Intelligence · Data & Analytics**
 
-[LinkedIn](https://www.linkedin.com/in/rajkumar-vijayan-0135a8338/) · [Email](mailto:vijayanrajkumar478@gmail.com) · 📍 Limerick, Ireland
+Available from **May 2027**, based in **Limerick** and open to **Dublin**.
+
+[LinkedIn](https://www.linkedin.com/in/rajkumar-vijayan-0135a8338/) · [Email](mailto:vijayanrajkumar478@gmail.com)
 
 ---
 
