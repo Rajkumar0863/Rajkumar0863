@@ -6,7 +6,7 @@
 
 *I work at the intersection of business, data and technology — structuring business problems, finding what the evidence actually says, and turning it into decisions and practical change.*
 
-📍 Limerick, Ireland · [LinkedIn](https://www.linkedin.com/in/rajkumar-vijayan-0135a8338/) · [Tableau Public](YOUR_TABLEAU_PUBLIC_URL) · [Email](mailto:vijayanrajkumar478@gmail.com)
+📍 Limerick, Ireland · [LinkedIn](https://www.linkedin.com/in/rajkumar-vijayan-0135a8338/) · [Tableau Public](https://public.tableau.com/app/profile/rajkumar.vijayan2695/vizzes) · [Email](mailto:vijayanrajkumar478@gmail.com)
 
 ---
 
@@ -24,7 +24,7 @@
 
 ### 01 — 📈 CRM Sales Pipeline Analysis
 
-**[Live Interactive Dashboard →](YOUR_TABLEAU_DASHBOARD_URL) · [Repository →](https://github.com/Rajkumar0863/crm-sales-pipeline-analysis)**
+**[Live Interactive Dashboard →](https://public.tableau.com/app/profile/rajkumar.vijayan2695/viz/CRMSalesPipelineAnalysis/CRMSalesDashboard) · [Repository →](https://github.com/Rajkumar0863/crm-sales-pipeline-analysis)**
 
 Analysed **8,800 B2B sales opportunities across four linked datasets** to answer a commercial question: **where is addressable revenue being lost, and is the opportunity large enough to act on?**
 
@@ -39,7 +39,7 @@ Analysed **8,800 B2B sales opportunities across four linked datasets** to answer
 
 ### 02 — 🛒 Retail Customer Growth Analysis
 
-**[Repository →](https://github.com/Rajkumar0863/retail-customer-growth)**
+**[Repository →](https://github.com/Rajkumar0863/retail-customer-growth)** · [Dashboard preview →](https://github.com/Rajkumar0863/retail-customer-growth/blob/main/dashboard.png) · [Power BI file →](https://github.com/Rajkumar0863/retail-customer-growth/blob/main/customer_growth_dashboard.pbix) · [Recommendation deck →](https://github.com/Rajkumar0863/retail-customer-growth/blob/main/customer_growth_deck.pptx)
 
 Analysed **700K+ retail transactions across 5,350 customers** to answer one commercial question: **which customer segments should receive retention investment?**
 
@@ -109,7 +109,7 @@ Built to understand the mechanics behind an exchange rather than simply consume 
 
 ### Technology
 
-`Java` · `Git` · `Object-Oriented Programming` · `Software Engineering Fundamentals`
+`Java` · `Python` · `Git` · `Object-Oriented Programming` · `Data Structures`
 
 ---
 
