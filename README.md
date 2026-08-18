@@ -1,219 +1,123 @@
 <div align="center">
 
-# 👋 Hi, I'm Rajkumar Vijayan
+# Rajkumar Vijayan
 
-### Business × Data × Technology
+**Business × Data × Technology**
 
-**MSc Software Development @ University of Limerick 🇮🇪**
+MSc Software Development (International Systems) — University of Limerick 🇮🇪
 
-*Using data and technology to understand and solve business problems.*
+*I take a business problem, find what the data actually says, and turn it into a decision someone can act on.*
 
-📍 Limerick, Ireland · [LinkedIn](https://linkedin.com/in/rajkumar-vijayan-0135a8338/) · [vijayanrajkumar478@gmail.com](mailto:vijayanrajkumar478@gmail.com)
+📍 Limerick, Ireland · [LinkedIn](https://linkedin.com/in/rajkumar-vijayan-0135a8338/) · [Tableau Public](https://public.tableau.com/app/profile/rajkumar.vijayan2695) · [vijayanrajkumar478@gmail.com](mailto:vijayanrajkumar478@gmail.com)
 
 </div>
 
 ---
 
+## `> the-work`
+
+| Project | Question it answers | What it found | Stack |
+|---|---|---|---|
+| **[CRM Sales Pipeline Analysis](https://github.com/Rajkumar0863/crm-sales-pipeline-analysis)** | Where is revenue leaking out of the pipeline? | 63.2% win rate across 8,800 opportunities; **~$237K conservatively recoverable** by coaching below-median agents to team median | SQL · Python · Tableau |
+| **[Retail Customer Growth](https://github.com/Rajkumar0863/retail-customer-growth)** | Which customers create value, and where is retention at risk? | Champions = 34.8% of customers but **75.4% of revenue**; **£144K retention opportunity** across 700K transactions | Python · RFM · Power BI |
+| **[ConsultLab](https://github.com/Rajkumar0863/consultlab)** 🚧 | Where does a loan process lose value, and what should change? | **33.1% of applications cancel after an offer was issued**; post-offer follow-up holds **65.5% of all queue time** | Process mining · BPMN · BABOK |
+
+---
+
 ## `> whoami`
 
-I'm currently pursuing an **MSc in Software Development at the University of Limerick**, building on a background in **Business Analytics and Data Science**.
+I came into software through business. A PGDM in Business Analytics, then a year at **Amazon Development Centre** as an ML Data Associate — curating and annotating 100,000+ data points where a labelling error propagates straight into model output — then a consulting internship at **VRBB & Associates**, mapping processes and writing the SOPs and MIS framework that made them repeatable.
 
-Before my MSc, I worked as an **ML Data Associate at Amazon Development Centre**, working with large-scale datasets supporting machine-learning processes. I later gained exposure to **business consulting, requirements gathering and client needs analysis** through an internship with **VRBB Associates**.
-
-My interests sit at the intersection of:
+The MSc at Limerick is the engineering half of that picture. What I'm building toward:
 
 ```text
-Business Problem
-      ↓
-Data & Analysis
-      ↓
-Insight
-      ↓
-Technology
-      ↓
-Business Decision
+Business problem → Data & analysis → Insight → Technology → Decision
 ```
 
-I'm particularly interested in **Technology Consulting, Business Analysis, Digital Transformation, Business Intelligence and Data & AI**.
+Interests: **Technology Consulting · Business Analysis · Digital Transformation · Business Intelligence · Data & AI**
 
 ---
 
-## `> what-i-work-with`
+## `> featured-projects`
 
-**💼 Business & Consulting**
-`Business Analysis` · `Requirements Gathering` · `Stakeholder Analysis` · `Process Analysis` · `Root-Cause Analysis` · `Problem Structuring`
+### 01 — 📈 CRM Sales Pipeline Analysis
 
-**📊 Data & Business Intelligence**
-`Power BI` · `Tableau` · `SQL` · `Python` · `Pandas` · `Excel` · `Data Visualisation` · `KPI Analysis`
+**🔗 [Live interactive dashboard →](https://public.tableau.com/app/profile/rajkumar.vijayan2695/viz/CRMSalesPipelineAnalysis/CRMSalesDashboard)** · **[Repository →](https://github.com/Rajkumar0863/crm-sales-pipeline-analysis)**
 
-**💻 Technology**
-`Java` · `C#` · `C++` · `JavaScript` · `Git` · `Docker` · `Google Cloud`
+8,800 B2B opportunities across four linked tables. The question wasn't "what's our win rate" — it was *where is the addressable loss, and is it big enough to act on*.
 
----
+- Win rates spread **55–70% across 30 agents**; ~$4.9M lost revenue concentrated in three products
+- Sized a **conservative $237K recovery** by moving below-median agents to the team median — deliberately conservative so the number survives challenge
+- Found and fixed a `GTXPro` / `GTX Pro` naming inconsistency that was silently breaking joins and understating a product's losses
+- Every finding cross-validated three ways — SQL, pandas, Tableau — before it reached the deck
 
-# `> featured-projects`
-
-## 01 — 📈 CRM Sales Pipeline Analysis
-
-A commercial analytics project examining **8,800 sales opportunities** to understand pipeline performance, customer value and recoverable revenue opportunities.
-
-**🔗 [View the live interactive dashboard →](https://public.tableau.com/app/profile/rajkumar.vijayan2695/viz/CRMSalesPipelineAnalysis/CRMSalesDashboard)**
-
-### Business Problem
-
-Where is value being lost across the sales pipeline, which segments perform strongest, and where should commercial teams focus intervention?
-
-### Key Findings
-
-* Analysed **8,800 sales opportunities**
-* Evaluated pipeline performance against an overall **63.2% win rate**
-* Identified approximately **$237K in conservative recoverable revenue opportunity**
-* Used customer and pipeline segmentation to identify commercially important areas for intervention
-
-### Methods & Tools
-
-`SQL` · `Python` · `RFM Segmentation` · `Pipeline Conversion Analysis` · `Customer Segmentation` · `KPI Analysis` · `Tableau`
-
-### Outcome
-
-Translated CRM data into a commercial story connecting **pipeline leakage, customer value and revenue opportunity** to potential sales actions.
-
-➡️ **[View Project](https://github.com/Rajkumar0863/crm-sales-pipeline-analysis)**
+`SQL` · `Python` · `pandas` · `Tableau` · `python-pptx`
 
 ---
 
-## 02 — 🛒 Retail Customer Growth Analysis
+### 02 — 🛒 Retail Customer Growth Analysis
 
-A customer analytics project analysing **700K+ retail transactions across 5,350 customers** to investigate customer value, retention, churn and growth opportunities.
+**[Repository →](https://github.com/Rajkumar0863/retail-customer-growth)**
 
-### Business Problem
+700K+ transactions, 5,350 customers, one commercial question: which segments deserve the retention budget?
 
-Which customer groups create the greatest commercial value, where is retention at risk, and which segments should the business prioritise?
+- RFM segmentation surfaced that **Champions are 34.8% of customers and 75.4% of revenue** — concentration that changes where spend should go
+- Quantified a **£144K retention opportunity** in the existing base rather than in acquisition
+- Delivered as a 10-slide recommendation deck plus an interactive dashboard, not a notebook
 
-### Key Findings
-
-* Analysed approximately **700,000 transactions**
-* Evaluated behaviour across **5,350 customers**
-* Identified an estimated **£144K customer retention opportunity**
-* Found that **Champions represented 34.8% of customers while contributing 75.4% of revenue**
-
-### Methods & Tools
-
-`Python` · `RFM Segmentation` · `Customer Analytics` · `Retention Analysis` · `Customer Segmentation` · `Power BI`
-
-### Outcome
-
-Converted transactional data into a customer-growth story focused on **retention, customer value and prioritisation of commercially important segments**.
-
-➡️ **[View Project](https://github.com/Rajkumar0863/retail-customer-growth)**
+`Python` · `RFM Segmentation` · `Retention Analysis` · `Power BI`
 
 ---
 
-## 03 — ☁️ Client Intelligence Platform
+## `> currently-building`
 
-A **deployed** analytics application that turns an uploaded dataset into KPI dashboards, trend analysis, risk alerts and business recommendations — built for business users rather than analysts.
+### 🏢 ConsultLab — Business Analysis Engagement · 🚧 discovery and as-is analysis complete
 
-### Business Problem
+**[Repository →](https://github.com/Rajkumar0863/consultlab)**
 
-Business teams hold data they cannot interrogate without an analyst in the loop. Can a self-service tool close that gap?
+Process mining applied to a real loan application event log (BPI Challenge 2017) — reconstructing the as-is process from **1.2m events across 31,509 applications, 149 staff, 13 months** of system data rather than from documentation.
 
-### What I Built
-
-* CSV/XLSX upload with automated data profiling and a data-quality score
-* Executive summary, KPI cards, risk alerts and recommended charts generated from the uploaded data
-* Interactive filters and CSV export of filtered insights
-* Containerised with Docker, CI/CD through GitHub Actions, deployed on Google Cloud Run
-
-### Methods & Tools
-
-`Python` · `Streamlit` · `Pandas` · `Plotly` · `Docker` · `GitHub Actions` · `Google Cloud Run`
-
-➡️ **[View Project](https://github.com/Rajkumar0863/ai-analyst-copilot-dashboard)**
-
----
-
-# `> additional-engineering-projects`
-
-## ⚙️ TradeMatch Exchange — Java Electronic Trading Matching Engine
-
-A Java project exploring the core mechanics of electronic trading systems through an **order book, matching engine and trade execution workflow**.
-
-**What I built:** order representation and management · buy/sell order book processing · order matching logic · trade execution workflow · object-oriented component structure
-
-`Java` · `Object-Oriented Programming` · `Data Structures` · `Priority Queues` · `System Design`
-
-➡️ **[View Project](https://github.com/Rajkumar0863/TradeMatchExchange)**
-
----
-
-## 🧩 Task Manager — C# / .NET 8
-
-A console application built to practise clean architecture: repository pattern, constructor injection, JSON persistence and **14 xUnit tests**.
-
-`C#` · `.NET 8` · `Repository Pattern` · `Unit Testing` · `xUnit`
-
-➡️ **[View Project](https://github.com/Rajkumar0863/csharp-task-manager)**
-
----
-
-# `> currently-building`
-
-## 🏢 ConsultLab — Business Analysis Engagement
-
-> 🚧 **In progress** — discovery and as-is analysis complete
-
-A business analysis engagement applying **process mining** to a real loan application event log (BPI Challenge 2017): reconstructing the as-is process from system data, diagnosing where value is lost, and specifying a technology-enabled recommendation with a quantified business case.
-
-### Findings so far
-
-Analysed **31,509 loan applications** (1.2m events, 149 staff, 13 months), reconstructing the process from system event data rather than documentation.
-
-* **33.1% of applications are cancelled after a formal offer has been issued** — every one had received an offer; fewer than one in ten ever returned documentation
-* **The post-offer follow-up call holds 65.5% of all queue time** in the process — 40,321 days of waiting against 181 days of actual handling
-* **73.4% of successful applications pass through a document-incompleteness loop**, adding 5.6 days each
-* **15,930 distinct process variants** across 31,509 applications; no single path covers more than 3.4% of cases
+- **33.1% of applications are cancelled after a formal offer was issued.** Every one had received an offer; fewer than one in ten ever returned documentation
+- **The post-offer follow-up call holds 65.5% of all queue time** — 40,321 days of waiting against 181 days of actual handling
+- **73.4% of successful applications pass through a document-incompleteness loop**, adding 5.6 days each
+- **15,930 distinct process variants**; no single path covers more than 3.4% of cases
 
 The two lead findings coincide in the data. The event log establishes co-occurrence, not causation — a limit stated explicitly in the analysis and carried into how the recommendation is framed.
 
-### Delivered
-
-`Project brief` · `Stakeholder analysis & RACI` · `As-is findings` · `Process mining analysis`
-
-### In progress
-
-`As-is BPMN` · `Business requirements document` · `Options assessment` · `To-be process` · `Business case` · `Recommendation deck`
-
-`Business Analysis` · `Process Mining` · `BPMN` · `Requirements Engineering` · `Root-Cause Analysis` · `Digital Transformation`
-
-➡️ **[View Project](https://github.com/Rajkumar0863/consultlab)**
-
-ConsultLab moves into **Featured Projects** once the recommendation and its supporting deliverables are complete.
+**Delivered:** project brief · stakeholder analysis & RACI · as-is findings · process mining analysis
+**In progress:** as-is BPMN · business requirements document · options assessment · to-be process · business case · recommendation deck
 
 ---
 
-# `> experience`
+## `> engineering`
 
-### 🟠 Amazon Development Centre — ML Data Associate | Feb 2022 – Jan 2023
+**[TradeMatch Exchange](https://github.com/Rajkumar0863/TradeMatchExchange)** — Java electronic trading engine: order book, price-time priority matching, trade execution and history tracking. Built to understand how the mechanics of a market actually work rather than to use them.
 
-* Curated and annotated **100,000+ data points** feeding production machine-learning models, where labelling errors propagate directly into model output.
-* Held accuracy against measured quality thresholds in a **target-driven operations environment**, balancing throughput with precision on every batch.
-* Applied and helped tighten **data-quality standards** on large-scale datasets — the discipline that underpins every analysis I've done since.
-
-`Data Quality` · `Large-Scale Data Operations` · `Machine Learning Data` · `Process Accuracy`
-
-### 🔵 VRBB & Associates (Chartered Accountants) — Business Consulting Intern | May 2024 – Jul 2024
-
-* Built **due-diligence review checklists** across legal, financial and secretarial workstreams, and evaluated client documentation against them.
-* **Mapped end-to-end business processes** for Business Development and CRM, then drafted the **standard operating procedures** to make them repeatable.
-* Designed an **MIS reporting framework** so management could track performance against consistent measures.
-* Mapped the **lead-generation process** end to end and identified where prospects were being lost.
-* Attended **client meetings** and translated what was discussed into structured documentation and due-diligence reports.
-
-`Business Process Mapping` · `Requirements Gathering` · `SOP Development` · `MIS Design` · `Due Diligence` · `Client-Facing Documentation`
+`Java` · `Object-Oriented Design` · `Priority Queues` · `Data Structures`
 
 ---
 
-# `> education`
+## `> toolkit`
+
+**Business & Consulting** — `Business Analysis` · `Requirements Gathering` · `Stakeholder Analysis` · `Process Mapping` · `Root-Cause Analysis` · `Problem Structuring`
+
+**Data & BI** — `SQL` · `Python` · `pandas` · `Power BI` · `Tableau` · `Excel` · `KPI Analysis` · `Data Storytelling`
+
+**Technology** — `Java` · `C#` · `C++` · `JavaScript` · `Git` · `Docker`
+
+---
+
+## `> background`
+
+**🟠 Amazon Development Centre — ML Data Associate** · Feb 2022 – Jan 2023
+Curated and annotated 100,000+ data points feeding production ML models, holding measured accuracy thresholds in a target-driven operations environment. The data-quality discipline underneath every analysis I've done since.
+
+**🔵 VRBB & Associates (Chartered Accountants) — Business Consulting Intern** · May – Jul 2024
+Built due-diligence checklists across legal, financial and secretarial workstreams; mapped end-to-end Business Development and CRM processes and wrote the SOPs; designed an MIS reporting framework; mapped lead generation and identified where prospects were being lost; sat in client meetings and turned them into structured documentation.
+
+---
+
+## `> education-and-certifications`
 
 | | | |
 |---|---|---|
@@ -221,51 +125,19 @@ ConsultLab moves into **Featured Projects** once the recommendation and its supp
 | 🇮🇳 **Thiagarajar School of Management** | PGDM — Business Analytics | 2023 – 2025 |
 | 🇮🇳 **B.S. Abdur Rahman Crescent Institute** | BCA — Data Science | 2017 – 2020 |
 
----
-
-# `> certifications`
-
 `Google Data Analytics Professional Certificate` · `McKinsey.org Forward Program` · `INSEAD — Blockchain and Business`
-
 **In progress:** `Microsoft PL-300 — Power BI Data Analyst`
-
----
-
-# `> current-focus`
-
-```yaml
-Rajkumar:
-
-  learning:
-    - Microsoft PL-300 Power BI Data Analyst
-    - Power Query, Data Modelling, DAX
-
-  building:
-    - ConsultLab
-
-  developing:
-    - Structured Problem Solving
-    - Commercial Awareness
-    - Consulting Communication
-    - Data Storytelling
-
-  exploring:
-    - Technology Consulting
-    - Digital Transformation
-    - Business Intelligence
-    - Data & AI
-```
 
 ---
 
 <div align="center">
 
-### Let's connect.
+### Let's connect
 
-I'm interested in opportunities where **business understanding, data and technology come together to solve real organisational problems**.
+I'm looking for graduate opportunities where **business understanding, data and technology come together on real organisational problems** — technology consulting, business analysis, digital transformation, BI and Data & AI.
 
 [LinkedIn](https://linkedin.com/in/rajkumar-vijayan-0135a8338/) · [vijayanrajkumar478@gmail.com](mailto:vijayanrajkumar478@gmail.com) · 📍 Limerick, Ireland
 
-*Understanding problems. Finding insights. Building practical solutions.*
+*Understand the problem. Find the insight. Build the thing that changes the decision.*
 
 </div>
