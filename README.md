@@ -16,7 +16,7 @@
 |---|---|---|---|
 | **[CRM Sales Pipeline Analysis](https://github.com/Rajkumar0863/crm-sales-pipeline-analysis)** | Where is revenue leaking from the pipeline? | 63.2% win rate across 8,800 opportunities; identified **~$237K conservatively recoverable opportunity** from improving below-median agent performance | SQL · Python · Tableau |
 | **[Retail Customer Growth](https://github.com/Rajkumar0863/retail-customer-growth)** | Which customers create value, and where is retention at risk? | Champions represent **34.8% of customers but 75.4% of revenue**; quantified a **£144K base-case retention opportunity** | Python · RFM · Power BI |
-| **[ConsultLab](https://github.com/Rajkumar0863/consultlab)** 🚧 | Where does a loan process lose value, and what should change? | **33.1% of applications cancel after offer**; post-offer follow-up accounts for **65.5% of total queue time** | Process Mining · BPMN · Business Analysis |
+| **[ConsultLab](https://github.com/Rajkumar0863/consultlab)** | Where does a loan process lose value, and what should change? | **33.1% of applications cancel after offer**; post-offer follow-up accounts for **65.5% of total queue time**; recommendation breaks even at a **2.4% recovery rate** | Process Mining · BPMN · Business Analysis |
 
 ---
 
@@ -52,34 +52,32 @@ Analysed **700K+ retail transactions across 5,350 customers** to answer one comm
 
 ---
 
-## `> currently-building`
+### 03 — 🏢 ConsultLab — Business Analysis & Technology Consulting Engagement
 
-### 🏢 ConsultLab — Business Analysis & Technology Consulting Engagement 🚧
+**[Recommendation deck (PDF) →](https://github.com/Rajkumar0863/consultlab/blob/main/05-deliverables/recommendation-deck.pdf) · [Repository →](https://github.com/Rajkumar0863/consultlab)**
 
-**[Repository →](https://github.com/Rajkumar0863/consultlab)**
-
-A simulated consulting engagement applying **process mining and structured business analysis** to the BPI Challenge 2017 loan-application event log.
+A complete consulting engagement applying **process mining and structured business analysis** to the BPI Challenge 2017 loan-application event log — from process discovery through to a costed, staged recommendation.
 
 Rather than assuming the documented process reflects reality, the engagement reconstructs the **as-is process from approximately 1.2M system events across 31,509 applications, 149 staff and 13 months of operational data**.
 
-#### Findings so far
+#### Findings
 
 - **33.1% of applications cancel after a formal offer has been issued**; all had received an offer, while fewer than one in ten returned documentation.
 - Post-offer follow-up accounts for **65.5% of total queue time** — approximately **40,321 days of waiting versus 181 days of actual handling**.
 - **73.4% of successful applications** pass through a document-incompleteness loop, adding approximately **5.6 days** each.
 - Identified **15,930 distinct process variants**, with no single path accounting for more than 3.4% of applications.
 
-> **Analytical limitation:** The lead findings co-occur in the event log. The data establishes **co-occurrence, not causation**, and that limitation is carried explicitly into the diagnosis and recommendation.
+> **Analytical limitation:** The lead findings co-occur in the event log. The data establishes **co-occurrence, not causation** — so the recommendation is staged, with the first stage structured to test that assumption at low cost.
 
-#### Engagement progress
+#### Recommendation
 
-**Completed**
+Reprioritise the post-offer follow-up queue by lapse risk first, then add automated applicant reminders — **delivered in two stages with a decision gate between them**. The programme breaks even at a **2.4% recovery rate** (233 of 9,629 applications lost annually); stage one exposes €125,000 rather than €245,000 while establishing which case is true.
 
-`Project Brief` · `Stakeholder Analysis` · `RACI` · `As-Is Findings` · `Process Mining Analysis`
+*The €166m of requested principal across cancelled applications is deliberately not presented as a benefit — it is what applicants asked to borrow, not revenue.*
 
-**In progress**
+#### Deliverables
 
-`As-Is BPMN` · `Business Requirements` · `User Stories & Acceptance Criteria` · `Requirements Traceability` · `Solution Options Assessment` · `To-Be Process` · `Business Case` · `Recommendation` · `Implementation Roadmap`
+`Project Brief` · `Stakeholder Analysis & RACI` · `As-Is Findings` · `Process Mining Analysis` · `As-Is BPMN` · `Business Requirements Document` · `User Stories & Acceptance Criteria` · `Requirements Traceability Matrix` · `Solution Options Assessment` · `To-Be BPMN` · `Business Case` · `Recommendation Deck & Roadmap`
 
 `Business Analysis` · `Process Mining` · `BPMN` · `Requirements Analysis` · `Process Improvement` · `Technology Consulting`
 
