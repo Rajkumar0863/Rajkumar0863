@@ -160,33 +160,34 @@ A console application built to practise clean architecture: repository pattern, 
 
 ## 🏢 ConsultLab — Business Analysis Engagement
 
-> 🚧 **Work in progress**
+> 🚧 **In progress** — discovery and as-is analysis complete
 
-A business analysis engagement applying **process mining** to a real loan application event log: reconstructing the as-is process from system data, diagnosing rework and delay, and specifying a technology-enabled recommendation with a quantified business case.
+A business analysis engagement applying **process mining** to a real loan application event log (BPI Challenge 2017): reconstructing the as-is process from system data, diagnosing where value is lost, and specifying a technology-enabled recommendation with a quantified business case.
 
-### Planned Consulting Journey
+### Findings so far
 
-```text
-Client Problem
-     ↓
-Stakeholder & Process Analysis
-     ↓
-Data Investigation
-     ↓
-Root-Cause Analysis
-     ↓
-Technology Opportunity
-     ↓
-Recommendation
-     ↓
-Business Impact
-```
+Analysed **31,509 loan applications** (1.2m events, 149 staff, 13 months), reconstructing the process from system event data rather than documentation.
 
-**Planned deliverables:** stakeholder analysis and RACI · as-is BPMN · process mining analysis · business requirements document · options assessment · to-be process · recommendation deck
+* **33.1% of applications are cancelled after a formal offer has been issued** — every one had received an offer; fewer than one in ten ever returned documentation
+* **The post-offer follow-up call holds 65.5% of all queue time** in the process — 40,321 days of waiting against 181 days of actual handling
+* **73.4% of successful applications pass through a document-incompleteness loop**, adding 5.6 days each
+* **15,930 distinct process variants** across 31,509 applications; no single path covers more than 3.4% of cases
 
-`Business Analysis` · `Process Mining` · `BPMN` · `Requirements Engineering` · `Power BI` · `Digital Transformation`
+The two lead findings coincide in the data. The event log establishes co-occurrence, not causation — a limit stated explicitly in the analysis and carried into how the recommendation is framed.
 
-ConsultLab will move into **Featured Projects** once a working version and its supporting consulting deliverables are complete.
+### Delivered
+
+`Project brief` · `Stakeholder analysis & RACI` · `As-is findings` · `Process mining analysis`
+
+### In progress
+
+`As-is BPMN` · `Business requirements document` · `Options assessment` · `To-be process` · `Business case` · `Recommendation deck`
+
+`Business Analysis` · `Process Mining` · `BPMN` · `Requirements Engineering` · `Root-Cause Analysis` · `Digital Transformation`
+
+➡️ **[View Project](https://github.com/Rajkumar0863/consultlab)**
+
+ConsultLab moves into **Featured Projects** once the recommendation and its supporting deliverables are complete.
 
 ---
 
