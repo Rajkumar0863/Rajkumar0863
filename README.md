@@ -1,6 +1,6 @@
 # Rajkumar Vijayan
 
-**Business Analysis · Data Analytics · Technology Consulting**
+**Business Analysis · Data Analytics · Technology Consulting**  
 MSc Software Development (International Systems), University of Limerick — graduating May 2027
 
 [Email](mailto:vijayanrajkumar478@gmail.com) · [LinkedIn](https://www.linkedin.com/in/rajkumar-vijayan-0135a8338/) · [Tableau Public](https://public.tableau.com/app/profile/rajkumar.vijayan2695/vizzes)
@@ -16,7 +16,7 @@ MSc Software Development (International Systems), University of Limerick — gra
 Three self-directed consulting studies built on public datasets. Every dataset, notebook, dashboard and deck below is in the linked repository — including the working, not just the conclusions.
 
 ### 01 — ConsultLab: process mining and business analysis on a loan-application process
-*Public dataset: BPI Challenge 2017 — 1.2M events, 31,509 applications, 149 staff, 13 months*
+*Public dataset: BPI Challenge 2017 — 1.2M events, 31,509 applications, 149 staff, 13 months*  
 **[Recommendation deck (PDF)](https://github.com/Rajkumar0863/consultlab/raw/main/05-deliverables/recommendation-deck.pdf) · [Repository](https://github.com/Rajkumar0863/consultlab)**
 
 **Question:** where does a loan-application process lose value, and what should be fixed first?
@@ -32,7 +32,7 @@ Ten artifacts delivered: project brief, stakeholder map and RACI, as-is/to-be BP
 `Process Mining` · `BPMN 2.0` · `Requirements Engineering` · `BABOK v3 (applied)` · `Business Case Development`
 
 ### 02 — B2B sales pipeline: where the revenue leaks
-*Public dataset: Maven CRM Sales Opportunities — 8,800 opportunities across four linked tables*
+*Public dataset: Maven CRM Sales Opportunities — 8,800 opportunities across four linked tables*  
 **[Interactive Tableau dashboard](https://public.tableau.com/app/profile/rajkumar.vijayan2695/viz/CRMSalesPipelineAnalysis/CRMSalesDashboard) · [Repository](https://github.com/Rajkumar0863/crm-sales-pipeline-analysis)**
 
 - Agent win rates spread from **55% to 70%** across 30 agents, with lost revenue concentrated in three product tiers.
@@ -42,7 +42,7 @@ Ten artifacts delivered: project brief, stakeholder map and RACI, as-is/to-be BP
 `SQL` · `Python` · `pandas` · `Tableau` · `Commercial Analytics`
 
 ### 03 — Retail customer growth and churn prevention
-*Public dataset: UCI Online Retail — 700K+ transactions, 5,350 customers*
+*Public dataset: UCI Online Retail — 700K+ transactions, 5,350 customers*  
 **[Power BI file](https://github.com/Rajkumar0863/retail-customer-growth/raw/main/customer_growth_dashboard.pbix) · [Recommendation deck](https://github.com/Rajkumar0863/retail-customer-growth/raw/main/customer_growth_deck.pptx) · [Repository](https://github.com/Rajkumar0863/retail-customer-growth)**
 
 - RFM segmentation showed **Champions are 34.8% of customers but 75.4% of revenue** — retention spend was being distributed evenly across a base that isn't.
@@ -97,7 +97,7 @@ A year in the data layer that every downstream model quietly depends on.
 
 ## Leadership
 
-**Core Committee Member, Entrepreneurship Cell — Thiagarajar School of Management** · 2023–2025
+**Core Committee Member, Entrepreneurship Cell — Thiagarajar School of Management** · 2023–2025  
 
 - **Sponsorship.** Held 15–20 sponsor relationships directly — negotiating terms, closing arrangements and managing them through to delivery. One collaboration was still unconfirmed in the final week before a major event; understanding what was actually blocking the sponsor, rather than pressing for a commitment, got it agreed without the negotiation turning adversarial.
 - **Event delivery.** Responsible for IT and promotions for an entrepreneurship event with 1,000+ attendees — translating what non-technical event teams needed into technical requirements, coordinating the IT team, and proposing a targeted promotional approach that identified the audience before choosing channels.
