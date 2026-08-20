@@ -1,130 +1,94 @@
 # Rajkumar Vijayan
 
-### Business Analysis × Data Analytics × Technology Consulting
+**Business Analysis · Data Analytics · Technology Consulting**
+MSc Software Development (International Systems), University of Limerick — graduating May 2027
 
-**MSc Software Development (International Systems) — University of Limerick 🇮🇪**
+> I read event logs and P&Ls with the same discipline: find where the process leaks, size the recovery conservatively, and stage the fix so the client can stop after Phase 1 if the numbers don't hold.
 
-> *I bridge the gap between enterprise business strategy and software delivery—leveraging process mining, Agile practices, and commercial analytics to solve operational bottlenecks, eliminate revenue leakage, and size business value conservatively.*
+[Email](mailto:vijayanrajkumar478@gmail.com) · [LinkedIn](https://www.linkedin.com/in/rajkumar-vijayan-0135a8338/) · [Tableau Public](https://public.tableau.com/app/profile/rajkumar.vijayan2695/vizzes)
 
-📍 **Location:** Limerick / Dublin, Ireland | ✉️ **Email:** [vijayanrajkumar478@gmail.com](mailto:vijayanrajkumar478@gmail.com) | 🔗 **LinkedIn:** [rajkumar-vijayan](https://www.linkedin.com/in/rajkumar-vijayan-0135a8338/) | 📊 **Tableau:** [Profile](https://public.tableau.com/app/profile/rajkumar.vijayan2695/vizzes)
-
-**Seeking:** Graduate Technology Consulting, Business Analysis, and Digital Transformation Roles  
-**Target Intake:** 2027 Graduate Programmes (Full-time availability from May 2027 | Open to Dublin & Limerick)
+**Currently:** finishing Microsoft PL-300 · applying to 2027 graduate programmes in technology consulting and business analysis · available full-time from May 2027, Dublin or Limerick.
 
 ---
 
-## 💡 Core Consulting Capabilities
+## Featured Projects
 
-| Capability Domain | Methodology & Tools | Key Proof Points & Artifacts |
-| :--- | :--- | :--- |
-| **Process Mining & Optimization** | Process Discovery, As-Is/To-Be BPMN 2.0, Root-Cause Analysis, Event Log Reconstruction | Reconstructed 1.2M event logs in `ConsultLab`; identified 33.1% post-offer drop-off and costed 2-stage remediation. |
-| **Requirements & Agile Delivery** | BRD, User Stories, Acceptance Criteria, Traceability Matrix, Backlog Grooming | **Google Agile Essentials** certified; applied BABOK v3 frameworks to map functional requirements to technical user stories. |
-| **Commercial & Data Analytics** | Revenue Leakage Analysis, RFM Segmentation, Cohort Analysis, Hypothesis Testing | Analyzed 8,800 B2B pipeline opportunities and 700K+ retail transactions (`SQL`, `Python`, `Tableau`, `Power BI`). |
-| **Systems Architecture & Dev** | OOP, Repository Pattern, Order-Matching Engines, Data Structures, Unit Testing | Engineered high-throughput Java trading systems (`TradeMatch`) and C#/.NET 8 modular task backend architectures. |
+Three self-directed consulting studies built on public datasets. Every dataset, notebook, dashboard and deck below is in the linked repository — including the working, not just the conclusions.
 
----
+### 01 — ConsultLab: process mining and business analysis on a loan-application process
+*Public dataset: BPI Challenge 2017 — 1.2M events, 31,509 applications, 149 staff, 13 months*
+**[Recommendation deck (PDF)](https://github.com/Rajkumar0863/consultlab/raw/main/05-deliverables/recommendation-deck.pdf) · [Repository](https://github.com/Rajkumar0863/consultlab)**
 
-## 🔎 How I Approach Problem Solving
+**Question:** where does a loan-application process lose value, and what should be fixed first?
 
-1. **Start from the business question, not the dataset:** Analysis exists to inform executive decisions, mitigate risk, or drive top/bottom-line business value.
-2. **State what the evidence cannot prove:** Analytical integrity requires distinguishing correlation/co-occurrence from causation, enabling risk-adjusted, staged program recommendations.
-3. **Size opportunities conservatively:** Exclude inflated, unrecoverable gross figures in favor of net recoverable opportunities backed by sensitivity testing.
+- **33.1% of applications cancel after the offer is issued.** Post-offer follow-up holds **65.5% of total queue time** — 40,321 waiting days against 181 days of active handling. The bottleneck is silence, not workload.
+- **73.4%** of successful applications pass through a document-incompleteness loop, adding ~5.6 days each.
+- **15,930 distinct process variants**, none above 3.4% of volume — the documented process barely exists in practice.
 
----
+**Recommendation:** reprioritise post-offer queues by lapse risk, then automate reminders — delivered in two stages with a decision gate. The programme breaks even at a **2.4% recovery rate** (233 of 9,629 lost applications), and Stage 1 puts €125,000 at risk instead of €245,000 while the assumption is tested.
 
-## 📂 Featured Enterprise & Consulting Engagements
+Ten artifacts delivered: project brief, stakeholder map and RACI, as-is/to-be BPMN 2.0, BRD, user stories, traceability matrix, options assessment, business case, executive deck.
 
-### 01 — 🏢 ConsultLab: End-to-End Business Analysis & Process Optimization
-**[View Recommendation Deck (PDF) →](https://github.com/Rajkumar0863/consultlab/raw/main/05-deliverables/recommendation-deck.pdf) · [Explore Full Repository →](https://github.com/Rajkumar0863/consultlab)**
+`Process Mining` · `BPMN 2.0` · `Requirements Engineering` · `BABOK v3 (applied)` · `Business Case Development`
 
-A complete end-to-end consulting engagement applying **process mining and structured business analysis** to the BPI Challenge 2017 loan-application event log—reconstructing operational reality across **1.2M system events, 31,509 applications, 149 staff, and 13 months of transactional data**.
+### 02 — B2B sales pipeline: where the revenue leaks
+*Public dataset: Maven CRM Sales Opportunities — 8,800 opportunities across four linked tables*
+**[Interactive Tableau dashboard](https://public.tableau.com/app/profile/rajkumar.vijayan2695/viz/CRMSalesPipelineAnalysis/CRMSalesDashboard) · [Repository](https://github.com/Rajkumar0863/crm-sales-pipeline-analysis)**
 
-* **The Business Challenge:** Where does a multi-million euro loan application process lose operational value, where are bottlenecks concentrating, and what is the optimal digital transformation roadmap?
-* **Key Analytical Discoveries:**
-  * **33.1% Post-Offer Drop-Off:** 33.1% of applications cancel after formal offer issuance; post-offer follow-up holds **65.5% of total queue time** (40,321 days of waiting vs. 181 days of active handling).
-  * **Incompleteness Loop:** **73.4%** of successful applications pass through a document-incompleteness loop, adding ~5.6 days per application.
-  * **Process Complexity:** Identified **15,930 distinct process variants**, with no single path accounting for more than 3.4% of total volume.
-* **Strategic Consulting Recommendation:** Reprioritize post-offer follow-up queues by lapse risk first, followed by automated applicant reminders. Delivered in **two stages with a decision gate** to mitigate exposure. The program breaks even at a **2.4% recovery rate** (233 of 9,629 lost applications); Stage 1 exposes €125,000 rather than €245,000 while validating core assumptions.
-* **Core Artifacts Delivered:** Project Brief, Stakeholder Map & RACI Matrix, As-Is/To-Be BPMN Workflows, Business Requirements Document (BRD), Requirements Traceability Matrix, Solution Options Assessment, and Executive Deck.
+- Agent win rates spread from **55% to 70%** across 30 agents, with lost revenue concentrated in three product tiers.
+- Sized a conservative **~$237K recoverable opportunity** — the gain from lifting below-median agents to the team median, not the headline lost-revenue figure.
+- Found and fixed a silent join failure (`GTXPro` vs `GTX Pro`) that was understating product-level loss. Every finding cross-validated across SQL, pandas and Tableau.
 
-`Business Analysis` · `Process Mining` · `BPMN 2.0` · `Requirements Engineering` · `BABOK v3` · `Agile` · `Digital Transformation` · `Business Case Development`
+`SQL` · `Python` · `pandas` · `Tableau` · `Commercial Analytics`
 
----
+### 03 — Retail customer growth and churn prevention
+*Public dataset: UCI Online Retail — 700K+ transactions, 5,350 customers*
+**[Power BI file](https://github.com/Rajkumar0863/retail-customer-growth/raw/main/customer_growth_dashboard.pbix) · [Recommendation deck](https://github.com/Rajkumar0863/retail-customer-growth/raw/main/customer_growth_deck.pptx) · [Repository](https://github.com/Rajkumar0863/retail-customer-growth)**
 
-### 02 — 📈 B2B Sales Pipeline & Revenue Leakage Analysis
-**[Interactive Tableau Dashboard →](https://public.tableau.com/app/profile/rajkumar.vijayan2695/viz/CRMSalesPipelineAnalysis/CRMSalesDashboard) · [Explore Full Repository →](https://github.com/Rajkumar0863/crm-sales-pipeline-analysis)**
+- RFM segmentation showed **Champions are 34.8% of customers but 75.4% of revenue** — retention spend was being distributed evenly across a base that isn't.
+- Isolated high-value cohorts showing early disengagement and quantified a **£144K base-case retention opportunity**.
+- Delivered as a 10-slide executive deck plus a Power BI dashboard with scenario controls.
 
-Analysed **8,800 B2B sales opportunities across four relational datasets** to isolate addressable revenue leakage across sales agents and product lines.
+`Python` · `RFM Segmentation` · `Power BI` · `Cohort Analysis`
 
-* **The Commercial Challenge:** Where is revenue leaking from the active pipeline, and is the recoverable opportunity large enough to warrant operational change?
-* **Analytical Approach & Findings:**
-  * Isolated sales agent win-rate variations ranging from **55% to 70%** and identified concentrated lost revenue across three specific product tiers.
-  * Sized a conservative **~$237K recoverable revenue opportunity** by modeling performance improvements for below-median agents brought up to the team median.
-  * Uncovered and resolved a silent data-join failure caused by naming inconsistencies (`GTXPro` vs `GTX Pro`) that was understating product-level loss metrics.
-  * Cross-validated findings across `SQL`, `Python (pandas)`, and `Tableau`.
-
-`SQL` · `Python` · `pandas` · `Tableau` · `Commercial Analytics` · `Data Storytelling` · `Pipeline Optimization`
+*Figures are in each dataset's native currency.*
 
 ---
 
-### 03 — 🛒 Retail Customer Growth & Churn Prevention Engine
-**[Power BI File Download →](https://github.com/Rajkumar0863/retail-customer-growth/raw/main/customer_growth_dashboard.pbix) · [Recommendation Deck →](https://github.com/Rajkumar0863/retail-customer-growth/raw/main/customer_growth_deck.pptx) · [Repository →](https://github.com/Rajkumar0863/retail-customer-growth)**
+## How I work
 
-Evaluated **700K+ transaction records across 5,350 retail customers** to establish an actionable customer segmentation and retention strategy.
-
-* **The Commercial Challenge:** Which customer segments generate sustainable value, and where should retention capital be deployed to maximize revenue defense?
-* **Analytical Approach & Findings:**
-  * Implemented RFM (Recency, Frequency, Monetary) segmentation to prove that **Champions represent 34.8% of the customer base but drive 75.4% of overall revenue**.
-  * Identified high-value customer cohorts showing early disengagement signals and quantified a **£144K base-case retention opportunity**.
-  * Developed a 10-slide executive recommendation deck and an interactive Power BI dashboard with scenario filter controls for executive decision-makers.
-
-`Python` · `RFM Segmentation` · `Power BI` · `Customer Analytics` · `Executive Communication` · `Cohort Analysis`
+1. **Start from the decision, not the dataset.** Analysis earns its place by changing what someone does on Monday.
+2. **Say what the evidence cannot prove.** Co-occurrence isn't causation — which is why recommendations come staged, with a gate.
+3. **Size conservatively.** Net recoverable, sensitivity-tested, never the gross figure.
 
 ---
 
-## 🛠️ Software Engineering & System Architecture
+## Also on GitHub
 
-### ⚙️ TradeMatch Exchange (Java Engine)
-**[Repository →](https://github.com/Rajkumar0863/TradeMatchExchange)**
-* Engineered a high-throughput Java electronic-trading engine implementing real-time order books, price-time priority matching algorithms, order execution, and trade history tracking.
-* Built using strict Object-Oriented Design principles, custom priority queues, and unit testing suites to simulate exchange mechanics.
+- **[TradeMatch Exchange](https://github.com/Rajkumar0863/TradeMatchExchange)** — Java order-matching engine: real-time order book, price-time priority matching, trade history, custom priority queues, unit-tested.
+- **[C# Task Manager](https://github.com/Rajkumar0863/csharp-task-manager)** — .NET 8 backend using the repository pattern, tested with xUnit.
 
-### 💼 C#/.NET 8 Enterprise Task Manager Architecture
-**[Repository →](https://github.com/Rajkumar0863/csharp-task-manager)**
-* Developed a scalable task management backend leveraging C# and .NET 8, applying the **Repository Pattern** and clean architectural principles.
-* Fully tested using `xUnit` to guarantee backend system reliability and component isolation.
-
-`Java` · `C#` · `.NET 8` · `Object-Oriented Design` · `Data Structures` · `xUnit` · `System Architecture`
+`Java` · `C#` · `.NET 8` · `Object-Oriented Design` · `Data Structures`
 
 ---
 
-## 💼 Professional Industry Experience
+## Experience
 
-### 🔵 VRBB & Associates — Business Consulting Intern
-*May 2024 – July 2024*
-* **Process Mapping & SOPs:** Documented end-to-end Business Development and CRM workflows; created Standard Operating Procedures (SOPs) to establish operational consistency.
-* **Due Diligence Checklists:** Built legal, financial, and secretarial due-diligence checklists to standardize client onboarding and risk assessment.
-* **MIS Framework Design:** Designed a Management Information System (MIS) reporting structure to increase executive visibility across active client engagements and lead pipelines.
+**VRBB & Associates — Business Consulting Intern** · May–Jul 2024
+Mapped end-to-end business development and CRM workflows and wrote the SOPs; built legal, financial and secretarial due-diligence checklists for client onboarding; designed an MIS reporting structure for visibility across active engagements.
 
-### 🟠 Amazon Development Centre — ML Data Associate
-*February 2022 – January 2023*
-* **Large-Scale Data Hygiene:** Annotated and curated **100,000+ production ML data points** under strict SLA quality targets.
-* **Process Discipline:** Worked inside production data pipelines where micro-level labeling accuracy directly impacted downstream model performance, building a rigorous foundation in data governance and quality control at scale.
+**Amazon Development Centre — ML Data Associate** · Feb 2022–Jan 2023
+Annotated and curated 100,000+ production ML data points against SLA quality targets, inside pipelines where labelling accuracy fed directly into model performance.
 
 ---
 
-## 🎓 Education & Professional Credentials
+## Education and credentials
 
-### Academic Qualifications
-* **MSc Software Development (International Systems)** | University of Limerick, Ireland *(2025 – 2027)*
-* **PGDM in Business Analytics** | Thiagarajar School of Management, India *(2023 – 2025)*
-* **BCA in Data Science** | B.S. Abdur Rahman Crescent Institute, India *(2017 – 2020)*
-
-### Professional Certifications & Programs
-* **Google Agile Essentials Specialization** (Coursera / Google)
-* **McKinsey.org Forward Program** (Core Business Problem Solving, Adaptability & Agile Leadership)
-* *In Progress:* **Microsoft PL-300: Power BI Data Analyst**
+- **MSc Software Development (International Systems)** — University of Limerick, 2025–2027
+- **PGDM Business Analytics** — Thiagarajar School of Management, 2023–2025
+- **BCA Data Science** — B.S. Abdur Rahman Crescent Institute, 2017–2020
+- Google Agile Essentials · McKinsey Forward Program · Microsoft PL-300 (in progress)
 
 ---
 
-### *Understand the problem. Establish the evidence. Design the change.*
+*Understand the problem. Establish the evidence. Design the change.*
