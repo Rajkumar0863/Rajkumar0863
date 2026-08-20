@@ -3,11 +3,11 @@
 **Business Analysis · Data Analytics · Technology Consulting**
 MSc Software Development (International Systems), University of Limerick — graduating May 2027
 
-> I read event logs and P&Ls with the same discipline: find where the process leaks, size the recovery conservatively, and stage the fix so the client can stop after Phase 1 if the numbers don't hold.
-
 [Email](mailto:vijayanrajkumar478@gmail.com) · [LinkedIn](https://www.linkedin.com/in/rajkumar-vijayan-0135a8338/) · [Tableau Public](https://public.tableau.com/app/profile/rajkumar.vijayan2695/vizzes)
 
-**Currently:** finishing Microsoft PL-300 · applying to 2027 graduate programmes in technology consulting and business analysis · available full-time from May 2027, Dublin or Limerick.
+> I came to software development from business analytics, so I tend to arrive at a technical problem asking what decision it is supposed to change. Most of my work sits in that overlap — reading a process closely enough to find where it actually fails, then building the analysis and the documentation that let someone act on it.
+
+**Currently:** finishing Microsoft PL-300 · applying to 2027 graduate programmes in technology consulting and business analysis · open to Dublin or Limerick.
 
 ---
 
@@ -77,22 +77,32 @@ Ten artifacts delivered: project brief, stakeholder map and RACI, as-is/to-be BP
 ### VRBB & Associates (Chartered Accountants) — Business Consulting Intern
 *Sivakasi, India · May – July 2024*
 
-Worked alongside the partner team on advisory engagements for owner-managed businesses, across due diligence, process design and management reporting.
+Supported the partner team on advisory engagements for owner-managed businesses, across due diligence, process analysis and management reporting.
 
-- **Due diligence.** Built the firm's legal, financial and secretarial due-diligence checklists and applied them to live engagements — reviewing incorporation records, statutory filings, contracts and financial statements, then writing findings into structured due-diligence reports for partner review.
-- **Process mapping and SOPs.** Documented the firm's business development and CRM workflows end to end, then wrote Standard Operating Procedures so an engagement ran the same way regardless of which partner picked it up. The mapping exercise was where I learned that "the process" and "what people actually do" are two different documents.
-- **Lead-generation process design.** Mapped how enquiries entered the firm and where they stalled before conversion, and set out a documented intake path in place of the informal routes each partner was running separately.
-- **MIS framework.** Designed a management-information reporting structure giving partners a consolidated view of active engagements, open deliverables and pipeline — replacing a picture that had previously lived across individual inboxes.
+- **Due diligence.** Reviewed financial and legal documents provided for client engagements, working through them for inconsistencies, missing evidence, and assumptions that weren't yet supported by what the client had supplied. Turned each gap into a specific follow-up question rather than a general flag, and surfaced findings for partner review. The habit it built: keep what is verified, what is stated, what is assumed and what is still open in separate columns before anyone acts on any of it.
+- **Lead-generation intake.** Enquiries arrived with inconsistent levels of detail, which made it slow to see where an opportunity stood or who owned the next step. I analysed the intake process end to end and proposed a consistent capture structure — prospect, requirement, source, stage, next action, ownership — treating enquiries as one pipeline rather than separate conversations. The constraint wasn't generating more leads; it was seeing the ones already there.
+- **Management information.** Information on enquiries and ongoing work existed but sat fragmented, so partners had to assemble the picture case by case. I worked backwards from the questions management actually needed answered — what's active, what's stuck, who owns the next action — and contributed to structuring reporting around status, ownership, next action and outcome.
 - **Client-facing work.** Sat in on client meetings and translated open-ended discussion into documented requirements and agreed follow-ups. Most of consulting turned out to be exactly this: getting a vague conversation into a written form both sides will stand behind.
 
 ### Amazon Development Centre — ML Data Associate
 *Chennai, India · February 2022 – January 2023*
 
-A year inside the part of the machine-learning stack nobody demos — the data layer that every downstream model quietly depends on.
+A year in the data layer that every downstream model quietly depends on.
 
-- **Volume against a quality bar.** Annotated and curated 100,000+ production data points to SLA targets on both throughput and accuracy, in workflows where output was audited rather than accepted at face value.
-- **Judgment on edge cases.** The measured work is the straightforward records; the value is in the ambiguous ones — recognising where annotation guidelines didn't cleanly cover a case, and escalating for a ruling instead of guessing and creating silent inconsistency across the dataset.
-- **Why it still shapes how I work.** Mislabelled data doesn't announce itself; it surfaces months later as model behaviour no amount of modelling can fix. That year is why my first move on any dataset is to interrogate it — and why the silent `GTXPro` / `GTX Pro` join failure in Project 02 got caught rather than quietly understating the numbers.
+- **Annotation at volume.** Annotated and curated 100,000+ production data points against defined guidelines and SLA quality targets, on a consumer robotics programme.
+- **Pattern, not symptom.** A run of annotation errors kept recurring across scenarios. Rather than correcting each as an isolated case, I compared the affected scenarios to isolate what they had in common, found the errors concentrated around one scenario category the guidelines didn't cleanly cover, and reframed the issue as a probable gap in the annotation framework rather than a labelling mistake. I raised the pattern with the team and recommended the category be captured explicitly so future data would represent it properly. The adoption decision wasn't mine — the contribution was the pattern and the recommendation.
+- **Why it still shapes how I work.** Mislabelled data doesn't announce itself; it surfaces months later as model behaviour no amount of modelling can fix. That year is why I look at errors collectively before fixing them individually — and why the silent `GTXPro` / `GTX Pro` join failure in Project 02 got caught rather than quietly understating the numbers.
+
+---
+
+## Leadership
+
+**Core Committee Member, Entrepreneurship Cell — Thiagarajar School of Management** · 2023–2025
+
+- **Sponsorship.** Held 15–20 sponsor relationships directly — negotiating terms, closing arrangements and managing them through to delivery. One collaboration was still unconfirmed in the final week before a major event; understanding what was actually blocking the sponsor, rather than pressing for a commitment, got it agreed without the negotiation turning adversarial.
+- **Event delivery.** Responsible for IT and promotions for an entrepreneurship event with 1,000+ attendees — translating what non-technical event teams needed into technical requirements, coordinating the IT team, and proposing a targeted promotional approach that identified the audience before choosing channels.
+- **Event website.** Built the event site carrying information, registration and sponsor presence, replacing scattered communication with a single point of reference.
+- **External engagement.** Coordinated E-Cell participation at a Tamil Nadu startup event in Madurai, putting members in front of founders, investors and senior industry leaders outside the college environment.
 
 ---
 
