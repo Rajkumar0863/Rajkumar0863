@@ -7,7 +7,7 @@ MSc Software Development (International Systems), University of Limerick — gra
 
 > I came to software development from business analytics, so I tend to arrive at a technical problem asking what decision it is supposed to change. Most of my work sits in that overlap — reading a process closely enough to find where it actually fails, then building the analysis and the documentation that let someone act on it.
 
-**Currently:** finishing Microsoft PL-300 · applying to 2027 graduate programmes in technology consulting and business analysis · open to Dublin or Limerick.
+**Currently:** preparing for Microsoft PL-300 · applying to 2027 graduate programmes in technology consulting and business analysis · open to Dublin or Limerick.
 
 ---
 
@@ -91,7 +91,7 @@ A year in the data layer that every downstream model quietly depends on.
 
 - **Annotation at volume.** Annotated and curated 100,000+ production data points against defined guidelines and SLA quality targets, on a consumer robotics programme.
 - **Pattern, not symptom.** A run of annotation errors kept recurring across scenarios. Rather than correcting each as an isolated case, I compared the affected scenarios to isolate what they had in common, found the errors concentrated around one scenario category the guidelines didn't cleanly cover, and reframed the issue as a probable gap in the annotation framework rather than a labelling mistake. I raised the pattern with the team and recommended the category be captured explicitly so future data would represent it properly. The adoption decision wasn't mine — the contribution was the pattern and the recommendation.
-- **Why it still shapes how I work.** Mislabelled data doesn't announce itself; it surfaces months later as model behaviour no amount of modelling can fix. That year is why I look at errors collectively before fixing them individually — and why the silent `GTXPro` / `GTX Pro` join failure in Project 02 got caught rather than quietly understating the numbers.
+- **Why it still shapes how I work.** Mislabelled data doesn't announce itself; it surfaces months later as model behaviour that modelling alone can't fix. That year is why I look at errors collectively before fixing them individually — and why the silent `GTXPro` / `GTX Pro` join failure in Project 02 got caught rather than quietly understating the numbers.
 
 ---
 
@@ -111,7 +111,7 @@ A year in the data layer that every downstream model quietly depends on.
 - **MSc Software Development (International Systems)** — University of Limerick, 2025–2027
 - **PGDM Business Analytics** — Thiagarajar School of Management, 2023–2025
 - **BCA Data Science** — B.S. Abdur Rahman Crescent Institute, 2017–2020
-- Google Agile Essentials · McKinsey Forward Program · Microsoft PL-300 (in progress)
+- Google Agile Essentials · McKinsey Forward Program · Microsoft PL-300 (exam preparation)
 
 ---
 
