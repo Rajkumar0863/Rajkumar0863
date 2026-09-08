@@ -1,19 +1,37 @@
 # Rajkumar Vijayan
 
-**Business Analysis · Data Analytics · Technology Consulting**  
+**Software Development · Business Analysis · Technology Consulting**  
 MSc Software Development (International Systems), University of Limerick — graduating May 2027
 
 [Email](mailto:vijayanrajkumar478@gmail.com) · [LinkedIn](https://www.linkedin.com/in/rajkumar-vijayan-0135a8338/) · [Tableau Public](https://public.tableau.com/app/profile/rajkumar.vijayan2695/vizzes)
 
-> I came to software development from business analytics, so I tend to arrive at a technical problem asking what decision it is supposed to change. Most of my work sits in that overlap — reading a process closely enough to find where it actually fails, then building the analysis and the documentation that let someone act on it.
+> I build backend and systems software, and I came to it from business analytics — so I tend to arrive at a technical problem asking what decision it is supposed to change. That overlap is where I want to work: close enough to the system to build it, close enough to the problem to know what it is for.
 
-**Currently:** preparing for Microsoft PL-300 · applying to 2027 graduate programmes in technology consulting and business analysis · open to Dublin or Limerick.
+**Currently:** building a C++ inference scheduler and a distributed payments service · applying to 2027 software engineering internships and graduate programmes · open to Dublin or Limerick.
 
 ---
 
-## Featured Projects
+## Software
 
-Three self-directed consulting studies built on public datasets. Every dataset, notebook, dashboard and deck below is in the linked repository — including the working, not just the conclusions.
+**[TradeMatchExchange](https://github.com/Rajkumar0863/TradeMatchExchange)** — Java  
+A stock exchange matching engine. Heap-based order books built on `PriorityQueue` with custom comparators for price-time priority, LIMIT/MARKET/IOC/FOK execution types, partial fills, order cancellation and modification, pre-trade risk validation, and market statistics including VWAP. Covered by a JUnit 5 suite; `mvn test` runs it.
+
+**InferX** — C++20 *(in progress)*  
+A multithreaded AI inference request scheduler. Configurable dynamic batching, FIFO and priority scheduling policies, and instrumentation that measures p50/p95/p99 latency and sustained throughput so policies can be compared under varying request loads.
+
+**PayFlow** — Java 21, Spring Boot *(in progress)*  
+A distributed payment processing service. Idempotent payment requests, asynchronous event processing over Kafka with retry and dead-letter handling, PostgreSQL persistence.
+
+**[C# Task Manager](https://github.com/Rajkumar0863/csharp-task-manager)** — C#/.NET 8  
+Backend built around the repository pattern, tested with xUnit.
+
+`Java` · `C++` · `Python` · `C#` · `SQL` · `Spring Boot` · `Maven` · `JUnit` · `Docker` · `PostgreSQL` · `Kafka` · `Git` · `Linux`
+
+---
+
+## Analysis and Consulting Studies
+
+Three self-directed studies built on public datasets. Every dataset, notebook, dashboard and deck below is in the linked repository — including the working, not just the conclusions.
 
 ### 01 — ConsultLab: process mining and business analysis on a loan-application process
 *Public dataset: BPI Challenge 2017 — 1.2M events, 31,509 applications, 149 staff, 13 months*  
@@ -60,15 +78,6 @@ Ten artifacts delivered: project brief, stakeholder map and RACI, as-is/to-be BP
 1. **Start from the decision, not the dataset.** Analysis earns its place by changing what someone does on Monday.
 2. **Say what the evidence cannot prove.** Co-occurrence isn't causation — which is why recommendations come staged, with a gate.
 3. **Size conservatively.** Net recoverable, sensitivity-tested, never the gross figure.
-
----
-
-## Also on GitHub
-
-- **[TradeMatch Exchange](https://github.com/Rajkumar0863/TradeMatchExchange)** — Java order-matching engine: real-time order book, price-time priority matching, trade history, custom priority queues, unit-tested.
-- **[C# Task Manager](https://github.com/Rajkumar0863/csharp-task-manager)** — .NET 8 backend using the repository pattern, tested with xUnit.
-
-`Java` · `C#` · `.NET 8` · `Object-Oriented Design` · `Data Structures`
 
 ---
 
