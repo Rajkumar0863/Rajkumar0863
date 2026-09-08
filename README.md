@@ -1,127 +1,179 @@
 # Rajkumar Vijayan
 
-**Software Development · Business Analysis · Technology Consulting**  
-MSc Software Development (International Systems), University of Limerick — graduating May 2027
+### Business × Data × Technology
 
-[Email](mailto:vijayanrajkumar478@gmail.com) · [LinkedIn](https://www.linkedin.com/in/rajkumar-vijayan-0135a8338/) · [Tableau Public](https://public.tableau.com/app/profile/rajkumar.vijayan2695/vizzes)
+**MSc Software Development (International Systems) — University of Limerick 🇮🇪**
 
-> I build backend and systems software, and I came to it from business analytics — so I tend to arrive at a technical problem asking what decision it is supposed to change. That overlap is where I want to work: close enough to the system to build it, close enough to the problem to know what it is for.
+*I work at the intersection of business, data and technology — structuring business problems, finding what the evidence actually says, and turning it into decisions and practical change.*
 
-**Currently:** building a C++ inference scheduler and a distributed payments service · applying to 2027 software engineering internships and graduate programmes · open to Dublin or Limerick.
-
----
-
-## Software
-
-**[TradeMatchExchange](https://github.com/Rajkumar0863/TradeMatchExchange)** — Java  
-A stock exchange matching engine. Heap-based order books built on `PriorityQueue` with custom comparators for price-time priority, LIMIT/MARKET/IOC/FOK execution types, partial fills, order cancellation and modification, pre-trade risk validation, and market statistics including VWAP. Covered by a JUnit 5 suite; `mvn test` runs it.
-
-**InferX** — C++20 *(in progress)*  
-A multithreaded AI inference request scheduler. Configurable dynamic batching, FIFO and priority scheduling policies, and instrumentation that measures p50/p95/p99 latency and sustained throughput so policies can be compared under varying request loads.
-
-**PayFlow** — Java 21, Spring Boot *(in progress)*  
-A distributed payment processing service. Idempotent payment requests, asynchronous event processing over Kafka with retry and dead-letter handling, PostgreSQL persistence.
-
-**[C# Task Manager](https://github.com/Rajkumar0863/csharp-task-manager)** — C#/.NET 8  
-Backend built around the repository pattern, tested with xUnit.
-
-`Java` · `C++` · `Python` · `C#` · `SQL` · `Spring Boot` · `Maven` · `JUnit` · `Docker` · `PostgreSQL` · `Kafka` · `Git` · `Linux`
+📍 Limerick, Ireland · [LinkedIn](https://www.linkedin.com/in/rajkumar-vijayan-0135a8338/) · [Tableau Public](https://public.tableau.com/app/profile/rajkumar.vijayan2695/vizzes) · [Email](mailto:vijayanrajkumar478@gmail.com)
 
 ---
 
-## Analysis and Consulting Studies
+## `> selected-work`
 
-Three self-directed studies built on public datasets. Every dataset, notebook, dashboard and deck below is in the linked repository — including the working, not just the conclusions.
-
-### 01 — ConsultLab: process mining and business analysis on a loan-application process
-*Public dataset: BPI Challenge 2017 — 1.2M events, 31,509 applications, 149 staff, 13 months*  
-**[Recommendation deck (PDF)](https://github.com/Rajkumar0863/consultlab/raw/main/05-deliverables/recommendation-deck.pdf) · [Repository](https://github.com/Rajkumar0863/consultlab)**
-
-**Question:** where does a loan-application process lose value, and what should be fixed first?
-
-- **33.1% of applications cancel after the offer is issued.** Post-offer follow-up holds **65.5% of total queue time** — 40,321 waiting days against 181 days of active handling. The bottleneck is silence, not workload.
-- **73.4%** of successful applications pass through a document-incompleteness loop, adding ~5.6 days each.
-- **15,930 distinct process variants**, none above 3.4% of volume — the documented process barely exists in practice.
-
-**Recommendation:** reprioritise post-offer queues by lapse risk, then automate reminders — delivered in two stages with a decision gate. The programme breaks even at a **2.4% recovery rate** (233 of 9,629 lost applications), and Stage 1 puts €125,000 at risk instead of €245,000 while the assumption is tested.
-
-Ten artifacts delivered: project brief, stakeholder map and RACI, as-is/to-be BPMN 2.0, BRD, user stories, traceability matrix, options assessment, business case, executive deck.
-
-`Process Mining` · `BPMN 2.0` · `Requirements Engineering` · `BABOK v3 (applied)` · `Business Case Development`
-
-### 02 — B2B sales pipeline: where the revenue leaks
-*Public dataset: Maven CRM Sales Opportunities — 8,800 opportunities across four linked tables*  
-**[Interactive Tableau dashboard](https://public.tableau.com/app/profile/rajkumar.vijayan2695/viz/CRMSalesPipelineAnalysis/CRMSalesDashboard) · [Repository](https://github.com/Rajkumar0863/crm-sales-pipeline-analysis)**
-
-- Agent win rates spread from **55% to 70%** across 30 agents, with lost revenue concentrated in three product tiers.
-- Sized a conservative **~$237K recoverable opportunity** — the gain from lifting below-median agents to the team median, not the headline lost-revenue figure.
-- Found and fixed a silent join failure (`GTXPro` vs `GTX Pro`) that was understating product-level loss. Every finding cross-validated across SQL, pandas and Tableau.
-
-`SQL` · `Python` · `pandas` · `Tableau` · `Commercial Analytics`
-
-### 03 — Retail customer growth and churn prevention
-*Public dataset: UCI Online Retail — 700K+ transactions, 5,350 customers*  
-**[Power BI file](https://github.com/Rajkumar0863/retail-customer-growth/raw/main/customer_growth_dashboard.pbix) · [Recommendation deck](https://github.com/Rajkumar0863/retail-customer-growth/raw/main/customer_growth_deck.pptx) · [Repository](https://github.com/Rajkumar0863/retail-customer-growth)**
-
-- RFM segmentation showed **Champions are 34.8% of customers but 75.4% of revenue** — retention spend was being distributed evenly across a base that isn't.
-- Isolated high-value cohorts showing early disengagement and quantified a **£144K base-case retention opportunity**.
-- Delivered as a 10-slide executive deck plus a Power BI dashboard with scenario controls.
-
-`Python` · `RFM Segmentation` · `Power BI` · `Cohort Analysis`
-
-*Figures are in each dataset's native currency.*
+| Project | Question it answers | What it found | Methods |
+|---|---|---|---|
+| **[CRM Sales Pipeline Analysis](https://github.com/Rajkumar0863/crm-sales-pipeline-analysis)** | Where is revenue leaking from the pipeline? | 63.2% win rate across 8,800 opportunities; identified **~$237K conservatively recoverable opportunity** from improving below-median agent performance | SQL · Python · Tableau |
+| **[Retail Customer Growth](https://github.com/Rajkumar0863/retail-customer-growth)** | Which customers create value, and where is retention at risk? | Champions represent **34.8% of customers but 75.4% of revenue**; quantified a **£144K base-case retention opportunity** | Python · RFM · Power BI |
+| **[ConsultLab](https://github.com/Rajkumar0863/consultlab)** | Where does a loan process lose value, and what should change? | **33.1% of applications cancel after offer**; post-offer follow-up accounts for **65.5% of total queue time**; recommendation breaks even at a **2.4% recovery rate** | Process Mining · BPMN · Business Analysis |
 
 ---
 
-## How I work
+## `> featured-projects`
 
-1. **Start from the decision, not the dataset.** Analysis earns its place by changing what someone does on Monday.
-2. **Say what the evidence cannot prove.** Co-occurrence isn't causation — which is why recommendations come staged, with a gate.
-3. **Size conservatively.** Net recoverable, sensitivity-tested, never the gross figure.
+### 01 — 📈 CRM Sales Pipeline Analysis
 
----
+**[Live Interactive Dashboard →](https://public.tableau.com/app/profile/rajkumar.vijayan2695/viz/CRMSalesPipelineAnalysis/CRMSalesDashboard) · [Repository →](https://github.com/Rajkumar0863/crm-sales-pipeline-analysis)**
 
-## Experience
+Analysed **8,800 B2B sales opportunities across four linked datasets** to answer a commercial question: **where is addressable revenue being lost, and is the opportunity large enough to act on?**
 
-### VRBB & Associates (Chartered Accountants) — Business Consulting Intern
-*Sivakasi, India · May – July 2024*
+- Identified agent win-rate variation of approximately **55–70%** and concentrated lost revenue across three products.
+- Sized a conservative **~$237K recoverable opportunity** by modelling below-median agents improving to the team median.
+- Found and corrected a `GTXPro / GTX Pro` naming inconsistency that was silently breaking joins and understating product-level losses.
+- Cross-validated key findings independently using **SQL, pandas and Tableau** before carrying them into recommendations.
 
-Supported the partner team on advisory engagements for owner-managed businesses, across due diligence, process analysis and management reporting.
-
-- **Due diligence.** Reviewed financial and legal documents provided for client engagements, working through them for inconsistencies, missing evidence, and assumptions that weren't yet supported by what the client had supplied. Turned each gap into a specific follow-up question rather than a general flag, and surfaced findings for partner review. The habit it built: keep what is verified, what is stated, what is assumed and what is still open in separate columns before anyone acts on any of it.
-- **Lead-generation intake.** Enquiries arrived with inconsistent levels of detail, which made it slow to see where an opportunity stood or who owned the next step. I analysed the intake process end to end and proposed a consistent capture structure — prospect, requirement, source, stage, next action, ownership — treating enquiries as one pipeline rather than separate conversations. The constraint wasn't generating more leads; it was seeing the ones already there.
-- **Management information.** Information on enquiries and ongoing work existed but sat fragmented, so partners had to assemble the picture case by case. I worked backwards from the questions management actually needed answered — what's active, what's stuck, who owns the next action — and contributed to structuring reporting around status, ownership, next action and outcome.
-- **Client-facing work.** Sat in on client meetings and translated open-ended discussion into documented requirements and agreed follow-ups. Most of consulting turned out to be exactly this: getting a vague conversation into a written form both sides will stand behind.
-
-### Amazon Development Centre — ML Data Associate
-*Chennai, India · February 2022 – January 2023*
-
-A year in the data layer that every downstream model quietly depends on.
-
-- **Annotation at volume.** Annotated and curated 100,000+ production data points against defined guidelines and SLA quality targets, on a consumer robotics programme.
-- **Pattern, not symptom.** A run of annotation errors kept recurring across scenarios. Rather than correcting each as an isolated case, I compared the affected scenarios to isolate what they had in common, found the errors concentrated around one scenario category the guidelines didn't cleanly cover, and reframed the issue as a probable gap in the annotation framework rather than a labelling mistake. I raised the pattern with the team and recommended the category be captured explicitly so future data would represent it properly. The adoption decision wasn't mine — the contribution was the pattern and the recommendation.
-- **Why it still shapes how I work.** Mislabelled data doesn't announce itself; it surfaces months later as model behaviour that modelling alone can't fix. That year is why I look at errors collectively before fixing them individually — and why the silent `GTXPro` / `GTX Pro` join failure in Project 02 got caught rather than quietly understating the numbers.
+`SQL` · `Python` · `pandas` · `Tableau` · `Commercial Analysis` · `Data Storytelling`
 
 ---
 
-## Leadership
+### 02 — 🛒 Retail Customer Growth Analysis
 
-**Core Committee Member, Entrepreneurship Cell — Thiagarajar School of Management** · 2023–2025  
+**[Repository →](https://github.com/Rajkumar0863/retail-customer-growth)** · [Dashboard preview →](https://github.com/Rajkumar0863/retail-customer-growth/blob/main/dashboard.png) · [Power BI file →](https://github.com/Rajkumar0863/retail-customer-growth/blob/main/customer_growth_dashboard.pbix) · [Recommendation deck →](https://github.com/Rajkumar0863/retail-customer-growth/blob/main/customer_growth_deck.pptx)
 
-- **Sponsorship.** Held 15–20 sponsor relationships directly — negotiating terms, closing arrangements and managing them through to delivery. One collaboration was still unconfirmed in the final week before a major event; understanding what was actually blocking the sponsor, rather than pressing for a commitment, got it agreed without the negotiation turning adversarial.
-- **Event delivery.** Responsible for IT and promotions for an entrepreneurship event with 1,000+ attendees — translating what non-technical event teams needed into technical requirements, coordinating the IT team, and proposing a targeted promotional approach that identified the audience before choosing channels.
-- **Event website.** Built the event site carrying information, registration and sponsor presence, replacing scattered communication with a single point of reference.
-- **External engagement.** Coordinated E-Cell participation at a Tamil Nadu startup event in Madurai, putting members in front of founders, investors and senior industry leaders outside the college environment.
+Analysed **700K+ retail transactions across 5,350 customers** to answer one commercial question: **which customer segments should receive retention investment?**
 
----
+- Used RFM segmentation to identify that **Champions represent 34.8% of customers but generate 75.4% of revenue**.
+- Identified high-value customers showing signs of disengagement and quantified a **£144K base-case retention opportunity** within the existing customer base.
+- Translated the analysis into prioritised retention recommendations rather than treating segmentation as the final output.
+- Delivered the findings through an **interactive Power BI dashboard and 10-slide recommendation deck**.
 
-## Education and credentials
-
-- **MSc Software Development (International Systems)** — University of Limerick, 2025–2027
-- **PGDM Business Analytics** — Thiagarajar School of Management, 2023–2025
-- **BCA Data Science** — B.S. Abdur Rahman Crescent Institute, 2017–2020
-- Google Agile Essentials · McKinsey Forward Program · Microsoft PL-300 (exam preparation)
+`Python` · `pandas` · `RFM Segmentation` · `Customer Analytics` · `Power BI`
 
 ---
 
-*Understand the problem. Establish the evidence. Design the change.*
+### 03 — 🏢 ConsultLab — Business Analysis & Technology Consulting Engagement
+
+**[Recommendation deck (PDF) →](https://github.com/Rajkumar0863/consultlab/blob/main/05-deliverables/recommendation-deck.pdf) · [Repository →](https://github.com/Rajkumar0863/consultlab)**
+
+A complete consulting engagement applying **process mining and structured business analysis** to the BPI Challenge 2017 loan-application event log — from process discovery through to a costed, staged recommendation.
+
+Rather than assuming the documented process reflects reality, the engagement reconstructs the **as-is process from approximately 1.2M system events across 31,509 applications, 149 staff and 13 months of operational data**.
+
+#### Findings
+
+- **33.1% of applications cancel after a formal offer has been issued**; all had received an offer, while fewer than one in ten returned documentation.
+- Post-offer follow-up accounts for **65.5% of total queue time** — approximately **40,321 days of waiting versus 181 days of actual handling**.
+- **73.4% of successful applications** pass through a document-incompleteness loop, adding approximately **5.6 days** each.
+- Identified **15,930 distinct process variants**, with no single path accounting for more than 3.4% of applications.
+
+> **Analytical limitation:** The lead findings co-occur in the event log. The data establishes **co-occurrence, not causation** — so the recommendation is staged, with the first stage structured to test that assumption at low cost.
+
+#### Recommendation
+
+Reprioritise the post-offer follow-up queue by lapse risk first, then add automated applicant reminders — **delivered in two stages with a decision gate between them**. The programme breaks even at a **2.4% recovery rate** (233 of 9,629 applications lost annually); stage one exposes €125,000 rather than €245,000 while establishing which case is true.
+
+*The €166m of requested principal across cancelled applications is deliberately not presented as a benefit — it is what applicants asked to borrow, not revenue.*
+
+#### Deliverables
+
+`Project Brief` · `Stakeholder Analysis & RACI` · `As-Is Findings` · `Process Mining Analysis` · `As-Is BPMN` · `Business Requirements Document` · `User Stories & Acceptance Criteria` · `Requirements Traceability Matrix` · `Solution Options Assessment` · `To-Be BPMN` · `Business Case` · `Recommendation Deck & Roadmap`
+
+`Business Analysis` · `Process Mining` · `BPMN` · `Requirements Analysis` · `Process Improvement` · `Technology Consulting`
+
+---
+
+## `> engineering`
+
+### ⚙️ [TradeMatch Exchange](https://github.com/Rajkumar0863/TradeMatchExchange)
+
+Java electronic-trading engine implementing an **order book, price-time priority matching, trade execution and trade-history tracking**.
+
+Built to understand the mechanics behind an exchange rather than simply consume a trading API.
+
+`Java` · `Object-Oriented Design` · `Priority Queues` · `Data Structures` · `Unit Testing`
+
+---
+
+## `> capabilities`
+
+### Business Analysis & Consulting
+
+`Problem Structuring` · `Requirements Analysis` · `Stakeholder Analysis` · `Process Mapping` · `Root-Cause Analysis` · `Solution Evaluation`
+
+### Data & Business Intelligence
+
+`SQL` · `Python` · `pandas` · `Power BI` · `Tableau` · `Excel` · `KPI Analysis` · `Data Storytelling`
+
+### Technology
+
+`Java` · `Python` · `Git` · `Object-Oriented Programming` · `Data Structures`
+
+---
+
+## `> experience`
+
+### 🟠 Amazon Development Centre — ML Data Associate
+**Feb 2022 – Jan 2023**
+
+Worked in a production ML data environment where the quality of human-labelled data directly influenced downstream model outputs.
+
+- Curated and annotated **100,000+ data points** used in production ML workflows while working against defined quality and productivity standards.
+- Worked with **large-scale, repetitive data processes where small labelling errors could propagate into downstream model behaviour**.
+- Developed a strong foundation in **data quality, process discipline and accuracy at scale** — principles I now carry into analytical and technology projects.
+
+**What it taught me:** *Reliable technology starts with reliable data and repeatable processes.*
+
+---
+
+### 🔵 VRBB & Associates — Business Consulting Intern
+**May – Jul 2024**
+
+Worked across business-development, due-diligence and internal reporting processes, translating operational needs and discussions into structured documentation.
+
+- Built **due-diligence checklists** spanning legal, financial and secretarial workstreams to structure information required across engagements.
+- Mapped **end-to-end Business Development and CRM processes**, documenting workflows and developing SOPs to make activities more repeatable.
+- Designed an **MIS reporting framework** to organise management information and improve visibility into business activity.
+- Analysed the **lead-generation process to identify where prospects were being lost** across the pipeline.
+- Supported client discussions by translating **requirements and follow-up actions into structured documentation**.
+
+**What it taught me:** *Understand the business problem and process before recommending the technology.*
+
+---
+
+## `> education`
+
+### 🇮🇪 University of Limerick
+**MSc Software Development (International Systems)**  
+2025 – 2027
+
+### 🇮🇳 Thiagarajar School of Management
+**PGDM — Business Analytics**  
+2023 – 2025
+
+### 🇮🇳 B.S. Abdur Rahman Crescent Institute of Science and Technology
+**BCA — Data Science**  
+2017 – 2020
+
+---
+
+## `> professional-development`
+
+**Google Data Analytics Professional Certificate**  
+**McKinsey.org Forward Program**
+
+**Currently working toward:** Microsoft PL-300 — Power BI Data Analyst
+
+---
+
+## `> let's-connect`
+
+I'm interested in graduate opportunities where **business understanding, data and technology come together to solve real organisational problems** — particularly:
+
+**Technology Consulting · Business Analysis · Digital Transformation · Business Intelligence · Data & Analytics**
+
+[LinkedIn](https://www.linkedin.com/in/rajkumar-vijayan-0135a8338/) · [Email](mailto:vijayanrajkumar478@gmail.com) · 📍 Limerick, Ireland
+
+---
+
+### *Understand the problem. Find the evidence. Design the change.*
