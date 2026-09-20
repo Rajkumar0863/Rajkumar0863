@@ -1,124 +1,115 @@
 # Rajkumar Vijayan
 
-**Software Development · Business Analysis · Technology Consulting**  
+**Graduate Software Engineer | C++ · Java · Systems · Game Development**  
 MSc Software Development (International Systems), University of Limerick — graduating May 2027
 
-[Email](mailto:vijayanrajkumar478@gmail.com) · [LinkedIn](https://www.linkedin.com/in/rajkumar-vijayan-0135a8338/) · [Tableau Public](https://public.tableau.com/app/profile/rajkumar.vijayan2695/vizzes)
+[Email](mailto:vijayanrajkumar478@gmail.com) · [LinkedIn](https://www.linkedin.com/in/rajkumar-vijayan-0135a8338/) · Based in Limerick, Ireland
 
-> I build backend and systems software, and I came to it from business analytics — so I tend to arrive at a technical problem asking what decision it is supposed to change. That overlap is where I want to work: close enough to the system to build it, close enough to the problem to know what it is for.
-
-**Currently:** building a C++ inference scheduler and a distributed payments service · applying to 2027 software engineering internships and graduate programmes · open to Dublin or Limerick.
+I build software where correctness, performance and clear rules matter. My recent work includes a multithreaded C++ scheduler, a price-time-priority matching engine and an Unreal Engine combat prototype in development. I am interested in graduate engineering roles involving C++, gameplay systems, real-time software and performance-focused development.
 
 ---
 
-## Software
+## Engineering highlights
 
-**[TradeMatchExchange](https://github.com/Rajkumar0863/TradeMatchExchange)** — Java  
-A stock exchange matching engine. Heap-based order books built on `PriorityQueue` with custom comparators for price-time priority, LIMIT/MARKET/IOC/FOK execution types, partial fills, order cancellation and modification, pre-trade risk validation, and market statistics including VWAP. Covered by a JUnit 5 suite; `mvn test` runs it.
+### [InferX](https://github.com/Rajkumar0863/inferx) — C++20 inference scheduler
 
-**InferX** — C++20 *(in progress)*  
-A multithreaded AI inference request scheduler. Configurable dynamic batching, FIFO and priority scheduling policies, and instrumentation that measures p50/p95/p99 latency and sustained throughput so policies can be compared under varying request loads.
+**Status:** Complete · **Focus:** concurrency, scheduling and performance measurement
 
-**PayFlow** — Java 21, Spring Boot *(in progress)*  
-A distributed payment processing service. Idempotent payment requests, asynchronous event processing over Kafka with retry and dead-letter handling, PostgreSQL persistence.
+InferX simulates an AI inference-serving path and makes scheduling behaviour measurable rather than opaque.
 
-`Java` · `C++` · `Python` · `SQL` · `Spring Boot` · `Maven` · `JUnit` · `Docker` · `PostgreSQL` · `Kafka` · `Git` · `Linux`
+- Implemented FIFO and priority scheduling with stable ordering for equal-priority requests.
+- Added configurable dynamic batching using batch-size and timeout triggers.
+- Built a concurrent worker pool and thread-safe queue with `std::thread`, mutexes, condition variables and atomics.
+- Instrumented mean, p50, p95 and p99 latency, throughput and batch occupancy.
+- Verified scheduling, batching and metrics behaviour with eight passing GoogleTest/CTest cases.
 
----
+`C++20` · `Concurrency` · `Algorithms` · `CMake` · `GoogleTest` · `Performance Metrics`
 
-## Analysis and Consulting Studies
+### [TradeMatchExchange](https://github.com/Rajkumar0863/TradeMatchExchange) — Java matching engine
 
-Three self-directed studies built on public datasets. Every dataset, notebook, dashboard and deck below is in the linked repository — including the working, not just the conclusions.
+**Status:** Complete · **Focus:** data structures, deterministic matching and object-oriented design
 
-### 01 — ConsultLab: process mining and business analysis on a loan-application process
-*Public dataset: BPI Challenge 2017 — 1.2M events, 31,509 applications, 149 staff, 13 months*  
-**[Recommendation deck (PDF)](https://github.com/Rajkumar0863/consultlab/raw/main/05-deliverables/recommendation-deck.pdf) · [Repository](https://github.com/Rajkumar0863/consultlab)**
+TradeMatchExchange models how an electronic exchange prioritises and executes orders.
 
-**Question:** where does a loan-application process lose value, and what should be fixed first?
+- Implemented max-heap buy books and min-heap sell books using `PriorityQueue` and custom comparators.
+- Applied price-time priority, partial-fill processing and deterministic execution logic.
+- Separated order management, matching, trade history, risk validation and market statistics.
+- Added CSV trade export and measures including volume, price range, average price and VWAP.
 
-- **33.1% of applications cancel after the offer is issued.** Post-offer follow-up holds **65.5% of total queue time** — 40,321 waiting days against 181 days of active handling. The bottleneck is silence, not workload.
-- **73.4%** of successful applications pass through a document-incompleteness loop, adding ~5.6 days each.
-- **15,930 distinct process variants**, none above 3.4% of volume — the documented process barely exists in practice.
+`Java` · `PriorityQueue` · `Heaps` · `Data Structures` · `OOP` · `JUnit 5` · `Maven`
 
-**Recommendation:** reprioritise post-offer queues by lapse risk, then automate reminders — delivered in two stages with a decision gate. The programme breaks even at a **2.4% recovery rate** (233 of 9,629 lost applications), and Stage 1 puts €125,000 at risk instead of €245,000 while the assumption is tested.
+### Arcane Arena — Unreal Engine turn-based combat prototype
 
-Ten artifacts delivered: project brief, stakeholder map and RACI, as-is/to-be BPMN 2.0, BRD, user stories, traceability matrix, options assessment, business case, executive deck.
+**Status:** In progress · **Focus:** C++ gameplay architecture and Unreal Engine workflows
 
-`Process Mining` · `BPMN 2.0` · `Requirements Engineering` · `BABOK v3 (applied)` · `Business Case Development`
+Arcane Arena is a focused prototype for learning production-style gameplay programming.
 
-### 02 — B2B sales pipeline: where the revenue leaks
-*Public dataset: Maven CRM Sales Opportunities — 8,800 opportunities across four linked tables*  
-**[Interactive Tableau dashboard](https://public.tableau.com/app/profile/rajkumar.vijayan2695/viz/CRMSalesPipelineAnalysis/CRMSalesDashboard) · [Repository](https://github.com/Rajkumar0863/crm-sales-pipeline-analysis)**
+- Developing Fighter, Mage and Rogue classes with distinct abilities and reusable combat behaviour.
+- Designing health, enemy-encounter and turn-sequencing systems as modular gameplay components.
+- Using C++ for core rules and Blueprints for presentation and user-interface feedback.
+- Structuring the combat loop so new abilities and enemy behaviours can be added without rewriting its core.
 
-- Agent win rates spread from **55% to 70%** across 30 agents, with lost revenue concentrated in three product tiers.
-- Sized a conservative **~$237K recoverable opportunity** — the gain from lifting below-median agents to the team median, not the headline lost-revenue figure.
-- Found and fixed a silent join failure (`GTXPro` vs `GTX Pro`) that was understating product-level loss. Every finding cross-validated across SQL, pandas and Tableau.
-
-`SQL` · `Python` · `pandas` · `Tableau` · `Commercial Analytics`
-
-### 03 — Retail customer growth and churn prevention
-*Public dataset: UCI Online Retail — 700K+ transactions, 5,350 customers*  
-**[Power BI file](https://github.com/Rajkumar0863/retail-customer-growth/raw/main/customer_growth_dashboard.pbix) · [Recommendation deck](https://github.com/Rajkumar0863/retail-customer-growth/raw/main/customer_growth_deck.pptx) · [Repository](https://github.com/Rajkumar0863/retail-customer-growth)**
-
-- RFM segmentation showed **Champions are 34.8% of customers but 75.4% of revenue** — retention spend was being distributed evenly across a base that isn't.
-- Isolated high-value cohorts showing early disengagement and quantified a **£144K base-case retention opportunity**.
-- Delivered as a 10-slide executive deck plus a Power BI dashboard with scenario controls.
-
-`Python` · `RFM Segmentation` · `Power BI` · `Cohort Analysis`
-
-*Figures are in each dataset's native currency.*
+`Unreal Engine 5` · `C++` · `Blueprints` · `OOP` · `Gameplay Systems`
 
 ---
+
+## Core stack
+
+| Area | Technologies |
+|---|---|
+| Programming | C++20, Java, Python, C#, SQL, JavaScript |
+| Computer science | Data structures, algorithms, OOP, design patterns, concurrency |
+| Quality and performance | Debugging, optimisation, latency measurement, automated testing |
+| Testing and build | GoogleTest, CTest, CMake, JUnit, Mockito, MockMvc, Maven |
+| Backend and data | Spring Boot, REST APIs, JPA, PostgreSQL, Pandas, NumPy |
+| Engineering tools | Git, GitHub Actions, Linux, Docker, Google Cloud Run, AWS |
 
 ## How I work
 
-1. **Start from the decision, not the dataset.** Analysis earns its place by changing what someone does on Monday.
-2. **Say what the evidence cannot prove.** Co-occurrence isn't causation — which is why recommendations come staged, with a gate.
-3. **Size conservatively.** Net recoverable, sensitivity-tested, never the gross figure.
+- Break systems into components with clear responsibilities and interfaces.
+- Test behaviour at boundaries, including ordering, timeouts, invalid input and state transitions.
+- Measure performance with useful metrics rather than relying on assumptions.
+- Document design decisions, build steps and limitations so another engineer can reproduce the work.
+
+---
+
+## Other selected projects
+
+- **[GradTrack](https://github.com/Rajkumar0863/gradtrack)** — Spring Boot and PostgreSQL application with validation, automated tests and GitHub Actions CI.
+- **[ConsultLab](https://github.com/Rajkumar0863/consultlab)** — process-mining study using 1.2 million events from the BPI Challenge 2017 dataset.
+- **[CRM Sales Pipeline Analysis](https://github.com/Rajkumar0863/crm-sales-pipeline-analysis)** — SQL, Python and Tableau analysis across 8,800 sales opportunities.
+- **[Retail Customer Growth](https://github.com/Rajkumar0863/retail-customer-growth)** — Python and Power BI analysis of more than 700,000 retail transactions.
 
 ---
 
 ## Experience
 
-### VRBB & Associates (Chartered Accountants) — Business Consulting Intern
-*Sivakasi, India · May – July 2024*
-
-Supported the partner team on advisory engagements for owner-managed businesses, across due diligence, process analysis and management reporting.
-
-- **Due diligence.** Reviewed financial and legal documents provided for client engagements, working through them for inconsistencies, missing evidence, and assumptions that weren't yet supported by what the client had supplied. Turned each gap into a specific follow-up question rather than a general flag, and surfaced findings for partner review. The habit it built: keep what is verified, what is stated, what is assumed and what is still open in separate columns before anyone acts on any of it.
-- **Lead-generation intake.** Enquiries arrived with inconsistent levels of detail, which made it slow to see where an opportunity stood or who owned the next step. I analysed the intake process end to end and proposed a consistent capture structure — prospect, requirement, source, stage, next action, ownership — treating enquiries as one pipeline rather than separate conversations. The constraint wasn't generating more leads; it was seeing the ones already there.
-- **Management information.** Information on enquiries and ongoing work existed but sat fragmented, so partners had to assemble the picture case by case. I worked backwards from the questions management actually needed answered — what's active, what's stuck, who owns the next action — and contributed to structuring reporting around status, ownership, next action and outcome.
-- **Client-facing work.** Sat in on client meetings and translated open-ended discussion into documented requirements and agreed follow-ups. Most of consulting turned out to be exactly this: getting a vague conversation into a written form both sides will stand behind.
-
 ### Amazon Development Centre — ML Data Associate
 *Chennai, India · February 2022 – January 2023*
 
-A year in the data layer that every downstream model quietly depends on.
+- Curated and validated more than 100,000 records for machine-learning training pipelines while meeting daily accuracy and throughput targets.
+- Investigated recurring error patterns and proposed workflow improvements adopted by the team, contributing to a reported 30% productivity improvement.
 
-- **Annotation at volume.** Annotated and curated 100,000+ production data points against defined guidelines and SLA quality targets, on a consumer robotics programme.
-- **Pattern, not symptom.** A run of annotation errors kept recurring across scenarios. Rather than correcting each as an isolated case, I compared the affected scenarios to isolate what they had in common, found the errors concentrated around one scenario category the guidelines didn't cleanly cover, and reframed the issue as a probable gap in the annotation framework rather than a labelling mistake. I raised the pattern with the team and recommended the category be captured explicitly so future data would represent it properly. The adoption decision wasn't mine — the contribution was the pattern and the recommendation.
-- **Why it still shapes how I work.** Mislabelled data doesn't announce itself; it surfaces months later as model behaviour that modelling alone can't fix. That year is why I look at errors collectively before fixing them individually — and why the silent `GTXPro` / `GTX Pro` join failure in Project 02 got caught rather than quietly understating the numbers.
+### VRBB & Associates — Business Consulting Intern
+*Sivakasi, India · May – July 2024*
 
----
-
-## Leadership
-
-**Core Committee Member, Entrepreneurship Cell — Thiagarajar School of Management** · 2023–2025  
-
-- **Sponsorship.** Held 15–20 sponsor relationships directly — negotiating terms, closing arrangements and managing them through to delivery. One collaboration was still unconfirmed in the final week before a major event; understanding what was actually blocking the sponsor, rather than pressing for a commitment, got it agreed without the negotiation turning adversarial.
-- **Event delivery.** Responsible for IT and promotions for an entrepreneurship event with 1,000+ attendees — translating what non-technical event teams needed into technical requirements, coordinating the IT team, and proposing a targeted promotional approach that identified the audience before choosing channels.
-- **Event website.** Built the event site carrying information, registration and sponsor presence, replacing scattered communication with a single point of reference.
-- **External engagement.** Coordinated E-Cell participation at a Tamil Nadu startup event in Madurai, putting members in front of founders, investors and senior industry leaders outside the college environment.
+- Gathered client requirements and documented processes, operating procedures and reporting needs.
+- Converted open-ended discussions into clear requirements, decisions and follow-up actions.
 
 ---
 
-## Education and credentials
+## Education
 
 - **MSc Software Development (International Systems)** — University of Limerick, 2025–2027
 - **PGDM Business Analytics** — Thiagarajar School of Management, 2023–2025
-- **BCA Data Science** — B.S. Abdur Rahman Crescent Institute, 2017–2020
-- Google Agile Essentials · McKinsey Forward Program · Microsoft PL-300 (exam preparation)
+- **BCA Data Science** — B.S. Abdur Rahman Crescent Institute of Science and Technology, 2017–2020
+
+## Additional
+
+- AWS Academy Cloud Foundations
+- McKinsey Forward Program
+- Entrepreneurship Cell Core Committee — managed 15–20 sponsor relationships for a national student festival with 1,000+ attendees
 
 ---
 
-*Understand the problem. Establish the evidence. Design the change.*
+**Open to 2027 graduate software-engineering and game-engineering opportunities in Ireland.**
